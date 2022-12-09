@@ -17,7 +17,7 @@ export default class AxiosUtils {
 			encodeValuesOnly: true,
 		};
 
-	public static defaultParamSerializer(params: any): string {
+	public static defaultParamSerializer(params: Record<string, any>): string {
 		return QueryString.stringify(
 			params,
 			AxiosUtils.defaultParamSerializerOptions

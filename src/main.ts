@@ -2,7 +2,6 @@ import App from '@/App.vue';
 import { loadAllDirectives } from '@/directives';
 import getNewRouter, { getNewBackupRouter } from '@/router';
 import AxiosUtils from '@/services/AxiosUtils';
-import Languages from '@/services/LanguagesService';
 import Logger from '@/services/LoggerService';
 import axios, { AxiosError } from 'axios';
 import Vue, { CreateElement, VNode } from 'vue';
@@ -13,7 +12,9 @@ Vue.use(VueMeta);
 
 loadAllDirectives();
 
-axios.defaults.paramsSerializer = AxiosUtils.defaultParamSerializer;
+axios.defaults.paramsSerializer = {
+	serialize: AxiosUtils.defaultParamSerializer,
+};
 
 getNewRouter()
 	.then((router: VueRouter): void => {
@@ -21,7 +22,6 @@ getNewRouter()
 			components: {},
 			router,
 			render: (h: CreateElement): VNode => h(App),
-			i18n: Languages.instance.i18n,
 		}).$mount('#app');
 	})
 	.catch((reason: AxiosError): void => {
@@ -33,6 +33,5 @@ getNewRouter()
 			components: {},
 			router: getNewBackupRouter(),
 			render: (h: CreateElement): VNode => h(App),
-			i18n: Languages.instance.i18n,
 		}).$mount('#app');
 	});
