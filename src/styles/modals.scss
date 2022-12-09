@@ -1,0 +1,73 @@
+.modal-container {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	justify-content: center;
+	align-items: center;
+	@include z-index(modal);
+
+	&.large .modal {
+		width: $container-width;
+		max-width: $container-width;
+	}
+
+	&.small .modal {
+		width: math.div($text-container-width, 2);
+		max-width: math.div($text-container-width, 2);
+	}
+
+	.modal {
+		background: $white;
+		width: $text-container-width;
+		min-width: math.div($text-container-width, 2);
+		max-width: $text-container-width;
+		max-height: 100vh;
+		border-radius: $radius;
+		overflow-y: auto;
+		padding: inherit;
+
+		.icon.close {
+			cursor: pointer;
+			color: rgba(0, 0, 0, 0.65);
+
+			&:hover {
+			color: rgba(0, 0, 0, 1);
+			}
+		}
+
+		.header {
+			padding: (math.div($padding, 2)) $padding;
+			background: $light-grey;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-weight: 700;
+			border-bottom: $border-width solid $border-color;
+		}
+
+		.content {
+			padding: $padding;
+			border-bottom: $border-width solid $border-color;
+
+			@include mobile {
+				padding: math.div($padding, 2);
+			}
+		}
+
+		.footer {
+			padding: (math.div($padding, 2)) $padding;
+			color: inherit;
+			background: rgba(0, 0, 0, 0.05);
+			text-align: right;
+			border-top: none;
+		}
+
+		@include tablet-and-under {
+			border-radius: 0;
+		}
+	}
+}

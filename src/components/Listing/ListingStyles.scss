@@ -1,0 +1,35 @@
+@use "sass:math";
+@import '@/styles/variables';
+
+@mixin listingProperties {
+	.heading.secondary {
+		.button.heading-button {
+			&.filter.active {
+				position: relative;
+				background: rgba($primary-color, .2);
+
+				&:after {
+					@include triangle($primary-color, .5rem, bottom);
+				}
+			}
+		}
+
+		#search-filter {
+			flex-basis: 25%;
+		}
+	}
+
+	#filters-container {
+		border-top: $border-width solid $border-color;
+		border-bottom: $border-width solid $border-color;
+		background: $white;
+	}
+
+	#table-container {
+		position: relative;
+
+		.loading {
+			border-radius: $radius;
+		}
+	}
+}

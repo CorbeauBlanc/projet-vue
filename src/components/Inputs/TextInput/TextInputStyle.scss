@@ -1,0 +1,53 @@
+@use "sass:math";
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+@mixin textInputProperties {
+	$split-padding: math.div($padding, 6);
+
+	&.compact {
+		.field {
+			padding-bottom: $compact-fields-padding - $split-padding;
+		}
+	}
+
+	&.inline:not(.block) {
+		&>label.label {
+			display: none;
+		}
+
+		label.inline-label {
+			display: block;
+			padding-left: $fields-padding;
+			margin-left: $fields-padding;
+			margin-top: -$fields-padding;
+			margin-bottom: -($fields-padding - $split-padding);
+
+			@include form-element-border('', 'error');
+
+			div {
+				height: 100%;
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+
+	.field {
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: $fields-padding - $split-padding;
+
+		i.icon.search {
+			margin-right: $fields-padding;
+		}
+
+		input {
+			width: 40%;
+			flex-grow: 1;
+			flex-shrink: 1;
+			margin-bottom: $split-padding;
+			font-size: inherit;
+		}
+	}
+}

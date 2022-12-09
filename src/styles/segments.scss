@@ -1,0 +1,314 @@
+/*
+---
+name: Segments
+category: Components
+---
+
+Simple segment
+```simple-types.html
+<div class="segment">Hey, I'm a segment</div>
+```
+
+Compact segment
+```compact-types.html
+<div class="compact segment">
+		Compact segment
+</div>
+```
+
+Very Compact segment (no padding)
+```very-compact-types.html
+<div class="very compact segment">
+		Compact segment
+</div>
+```
+
+Raised segment
+```raised-types.html
+<div class="raised segment">
+		Raised segment
+</div>
+```
+
+Serie of segments
+```series-types.html
+<div class="segments">
+		<div class="segment">
+				Segment 1
+		</div>
+		<div class="segment">
+				Segment 2
+		</div>
+		<div class="segment">
+				Segment 3
+		</div>
+</div>
+```
+
+Serie of segments with header
+```header-types.html
+<div class="segments">
+		<div class="header segment">Header segment</div>
+		<div class="segment">Another segment</div>
+		<div class="segment">Another segment</div>
+</div>
+```
+
+Colored segments
+```colors-types.html
+<div class="segment primary">segment primary</div>
+<div class="segment secondary">segment secondary</div>
+<div class="segment grey">segment grey</div>
+<div class="segment blue">segment blue</div>
+<div class="segment green">segment green</div>
+<div class="segment red">segment red</div>
+<div class="segment yellow">segment yellow</div>
+```
+
+Colored inverted segments
+```inverted-colors-types.html
+<div class="segment inverted">segment inverted</div>
+<div class="segment inverted primary">segment inverted primary</div>
+<div class="segment inverted secondary">segment inverted secondary</div>
+<div class="segment inverted grey">segment inverted grey</div>
+<div class="segment inverted blue">segment inverted blue</div>
+<div class="segment inverted green">segment inverted green</div>
+<div class="segment inverted red">segment inverted red</div>
+<div class="segment inverted yellow">segment inverted yellow</div>
+```
+
+Stretched segments (fill height)
+```stretched-types.html
+<div class="two column grid">
+		<div class="column">
+				<div class="segments stretched">
+						<div class="segment header">Title</div>
+						<div class="segment">
+								<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+								<p>Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+								<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
+						</div>
+				</div>
+		</div>
+		<div class="column">
+				<div class="segments stretched">
+						<div class="segment header">Another bloc / fill the height</div>
+						<div class="segment">
+								<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+						</div>
+				</div>
+		</div>
+</div>
+```
+*/
+.segment {
+	position: relative;
+	background: $white;
+	padding: $padding;
+	color: $text-color;
+	border: $border-width solid $border-color;
+	border-radius: $radius;
+
+	&:not(:last-child) {
+		margin-bottom: $padding;
+
+	}
+
+	&.inline {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&.header {
+		font-family: $header-font;
+		font-weight: 700;
+		font-size: 1.2rem;
+		display: flex;
+		align-items: center;
+
+		>.icon {
+			margin-right: math.div($padding, 4);
+		}
+	}
+
+	&.inverted {
+		color: $white;
+		background: $black;
+	}
+
+	@each $swatch,
+	$color in $swatch {
+		&.#{$swatch}:not(.flash-message) {
+			background: scale-color($color, $lightness: 90%);
+			color: scale-color($color, $lightness: -40%);
+			border-color: rgba(0, 0, 0, .15);
+
+			&.inverted {
+				background: $color;
+				color: good-contrast($color);
+				border-color: rgba(0, 0, 0, 0);
+			}
+		}
+	}
+
+	&.raised {
+		border: none;
+		box-shadow: $base-shadow;
+	}
+
+	&.compact {
+		padding: math.div($padding, 2);
+
+		&.very {
+			padding: 0;
+			overflow-y: auto;
+
+			.table {
+				margin: 0;
+			}
+		}
+
+		//&.overflowed {
+		//  overflow-y: auto;
+		//}
+	}
+
+
+	&.empty.state {
+		text-align: center;
+		padding-top: $padding * 2;
+		padding-bottom: $padding * 2;
+
+		>.emoji {
+			font-size: 3.5rem;
+		}
+
+		>.emoji {
+
+			+.h1,
+			+.h2,
+			+.h3,
+			+.h4,
+			+.h5,
+			+p {
+				margin-top: math.div($padding, 4);
+			}
+		}
+
+		.content {
+			margin-top: $padding;
+		}
+
+		@include mobile {
+			padding-top: $padding;
+			padding-bottom: $padding;
+		}
+	}
+
+	&.options {
+		background: scale-color($primary-color, $lightness: 90%);
+	}
+
+	&.fullscreen {
+		position: fixed;
+		z-index: 999;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		background: rgba($white, .85);
+		border-radius: 0;
+		border: none;
+	}
+
+	&.stretched {
+		//display: flex;
+		//flex-direction: column;
+		height: 100%;
+
+		//.segment {
+		//  flex: 1 1 auto;
+		//
+		//  &.header {
+		//    flex: 0 1 auto;
+		//  }
+		//
+		//  &:last-child {
+		//    flex: inherit;
+		//  }
+		//}
+	}
+
+	.grid:not(.icon) {
+		margin-left: - math.div($padding, 2);
+		margin-right: - math.div($padding, 2);
+	}
+}
+
+.segments {
+	margin-bottom: $padding;
+	border: $border-width solid $border-color;
+	border-radius: $radius;
+
+	&.flat {
+		box-shadow: $flat-border;
+	}
+
+	&.compact {
+		.segment {
+			padding: math.div($padding, 2);
+		}
+	}
+
+	&.raised {
+		box-shadow: $base-shadow;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.segment {
+		box-shadow: none;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		border-bottom: $border-width solid $border-color;
+
+		&:first-child {
+			border-radius: $radius $radius 0 0;
+		}
+
+		&:last-child {
+			border-radius: 0 0 $radius $radius;
+		}
+
+		&:last-child,
+		&:only-child,
+		&.last-child,
+		&.only-child {
+			border: none;
+		}
+	}
+
+	&.stretched {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		background: $white;
+
+		.segment {
+			flex: 1 1 auto;
+
+			&.header {
+				flex: 0 1 auto;
+			}
+
+			&:last-child {
+				flex: inherit;
+			}
+		}
+	}
+}

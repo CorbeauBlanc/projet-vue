@@ -1,0 +1,44 @@
+<template lang="pug">
+extends /src/components/Modal/ModalTemplate
+block header
+	| {{ $t("Retirer tous les en cours") }}
+block content
+	i18n(path='Retirer les affectations avec le statut "{t}" ?', tag='p')
+		template(#t)
+			strong {{ $t("en cours") }}
+block footer
+	div
+	div
+		button.button.red(@click='confirm')
+			| {{ $t("Retirer") }}
+		button.button.secondary(@click='cancel')
+			| {{ $t("Annuler") }}
+</template>
+
+<script lang="ts">
+import Modal from '@/components/Modal/Modal';
+import { Component } from 'vue-property-decorator';
+
+@Component({})
+export default class InprogressModal extends Modal {
+	protected readonly modalId: string = 'in-progress-modal';
+	protected readonly keepalive: boolean = true;
+
+	protected hidden: boolean = true;
+
+	protected confirm(): void {
+		this.$emit('confirm');
+		this.hide();
+	}
+
+	protected cancel(): void {
+		this.hide();
+	}
+}
+</script>
+
+<style lang="scss" scoped>
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+</style>

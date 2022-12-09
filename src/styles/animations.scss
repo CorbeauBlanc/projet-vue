@@ -1,0 +1,48 @@
+@keyframes shake {
+	10%,90% {
+		transform: translate3d(-1px,0,0) scale(1.4)
+	}
+
+	20%,80% {
+		transform: translate3d(2px,0,0) scale(1.4)
+	}
+
+	30%,50%,70% {
+		transform: translate3d(-4px,0,0) scale(1.4)
+	}
+
+	40%,60% {
+		transform: translate3d(4px,0,0) scale(1.4)
+	}
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359.9deg);
+	}
+}
+
+@keyframes slideLeft {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes slideRight {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+}

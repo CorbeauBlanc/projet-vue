@@ -1,0 +1,149 @@
+/*
+---
+name: Stats
+category: Patterns
+---
+
+Use it with segments
+
+```default-types.html
+<div class="text container" style='max-width:460px'>
+	<div class="segments">
+			<div class="header segment">Âge</div>
+			<div class="segment">
+					<div class="stats gender">
+							<div class="stat">
+									<div class="number">24</div>
+									<div class="title">Min</div>
+							</div>
+							<div class="stat main">
+									<div class="number">32</div>
+									<div class="title">Moyenne</div>
+							</div>
+							<div class="stat">
+									<div class="number">64</div>
+									<div class="title">Max</div>
+							</div>
+					</div>
+			</div>
+	</div>
+</div>
+```
+
+Vertical stats
+
+```vertical-types.html
+<div class="container">
+	<div class="segments">
+			<div class="header segment">Statistiques</div>
+			<div class="segment">
+					<div class="stats vertical">
+							<div class="stat">
+									<div class="title">Vidéos validées</div>
+									<div class="number">16</div>
+							</div>
+							<div class="stat">
+									<div class="title">Quota attendu</div>
+									<div class="number">17</div>
+							</div>
+							<div class="stat">
+									<div class="title">Echecs</div>
+									<div class="number">4,7%</div>
+							</div>
+							<div class="stat">
+									<div class="title">Temps moyen</div>
+									<div class="number">00:17:00</div>
+							</div>
+							<div class="stat">
+									<div class="title">Temps total</div>
+									<div class="number">05:06:07</div>
+							</div>
+					</div>
+			</div>
+			<div class="segment">
+					<div class="stats vertical">
+							<div class="stat">
+									<div class="title">1<sup>ère</sup> vidéo reçue le</div>
+									<div class="number">25/01/2019 @ 19h14</div>
+							</div>
+							<div class="stat">
+									<div class="title">Dernière vidéo reçue le</div>
+									<div class="number">29/01/2019 @ 14h21</div>
+							</div>
+					</div>
+			</div>
+	</div>
+</div>
+```
+*/
+.stats {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+
+	.stat {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		align-content: center;
+
+		&.main {
+			.number {
+				font-size: 5rem;
+
+				@include tablet {
+					font-size: 3.7rem;
+				}
+			}
+		}
+
+		.number {
+			font-family: $header-font;
+			font-size: 3.7rem;
+		}
+
+	}
+
+	&.vertical {
+		//justify-content: space-between;
+
+		.stat {
+
+			.title {
+				color: $text-muted;
+			}
+
+			.number {
+				font-size: 2.2rem;
+				line-height: 1;
+				margin-top: math.div($padding, 4);
+			}
+		}
+	}
+
+	&.age,
+	&.ueq {
+		.stat {
+			&:not(.main) {
+				opacity: .7;
+
+				.number {
+					font-family: $header-font;
+					font-size: 2rem;
+				}
+			}
+
+			&.main {
+				.number {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+}

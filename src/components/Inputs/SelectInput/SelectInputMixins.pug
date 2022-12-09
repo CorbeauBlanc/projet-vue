@@ -1,0 +1,46 @@
+include /src/components/Inputs/CustomInput/CustomInputMixins
+
+mixin select-content
+	template(
+		#before
+		v-if="multipleIsEnabled() && value !== undefined"
+	)
+		+selected-items
+	template(#after)
+		+tooltip
+		+inline-label
+	trigger(
+		top
+		cancel-first="enter"
+		@enter="triggerEntered = 'top'"
+		@leave="triggerEntered = undefined"
+	)/
+	custom-optgroup(
+		v-for="(group, i) in groups"
+		:key="`${group.value}${i}`"
+		:class="[group.class]"
+		:disabled="group.disabled"
+	)
+		custom-option(
+			v-for="(val, j) in group.options"
+			:key="`${val.value}${i}${j}`"
+			:value="val.value"
+			:class="[val.class]"
+			:disabled="val.disabled"
+		)
+			i.icon(:class="val.icon" v-if="val.icon")
+			| {{ cfg.translate ? $t(val.text) : val.text }}
+	custom-option(
+		v-for="(val, i) in options"
+		:key="`${val.value}${i}`"
+		:value="val.value"
+		:class="[val.class]"
+		:disabled="val.disabled"
+	)
+		i.icon(:class="val.icon" v-if="val.icon")
+		| {{ cfg.translate ? $t(val.text) : val.text }}
+	trigger(
+		bottom
+		@enter="triggerEntered = 'bottom'"
+		@leave="triggerEntered = undefined"
+	)

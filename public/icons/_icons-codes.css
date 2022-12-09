@@ -1,0 +1,4138 @@
+/*
+---
+name: Icons
+category: Components
+---
+
+Size
+```size-types.html
+<i class="icon twitter small"></i>
+<i class="icon twitter"></i>
+<i class="icon twitter large"></i>
+<i class="icon twitter big"></i>
+<i class="icon twitter huge"></i>
+```
+
+All icons available
+```list-types.html hidden
+<div class="grid">
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon account box"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon account box"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon account circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon account circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon account"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon account"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon actions"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon actions"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon activity"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon activity"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon add"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon add"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon affectations"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon affectations"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon age"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon age"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon analyze"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon analyze"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon android"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon android"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon apple"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon apple"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon archive"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon archive"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon arrow down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon arrow down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon arrow left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon arrow left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon arrow right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon arrow right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon arrow up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon arrow up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon arrows"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon arrows"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon asterisk"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon asterisk"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon auth"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon auth"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon back"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon back"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon bank"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon bank"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon birthday"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon birthday"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon briefcase"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon briefcase"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon bug"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon bug"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon bullhorn"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon bullhorn"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon calendar"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon calendar"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon call"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon call"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon campaign"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon campaign"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon captions"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon captions"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon car"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon car"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret circle down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret circle down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret circle left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret circle left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret circle right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret circle right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret circle up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret circle up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon carret up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon carret up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon cart"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon cart"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chart areaspline"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chart areaspline"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chart bar"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chart bar"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chart donut"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chart donut"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chart line"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chart line"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chart pie"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chart pie"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon check"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon check"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron double down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron double down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron double up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron double up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chevron up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chevron up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon children"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon children"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon chrome"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon chrome"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon circle notched"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon circle notched"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon clock"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon clock"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon close"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon close"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon closing"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon closing"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon cloud"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon cloud"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon code"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon code"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon color edit"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon color edit"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon comment"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon comment"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon company"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon company"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon copy"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon copy"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon country"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon country"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon credit"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon credit"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon csp"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon csp"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon cut"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon cut"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon dashboard"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon dashboard"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon data sources"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon data sources"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon datas compiled"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon datas compiled"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon delete"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon delete"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon desktop"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon desktop"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon devices"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon devices"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon dots horizontal"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon dots horizontal"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon dots vertical"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon dots vertical"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon download"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon download"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon driver licence"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon driver licence"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon edit"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon edit"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon electron"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon electron"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon error circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon error circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon error"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon error"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon export png"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon export png"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon external link"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon external link"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon eye"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon eye"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon facebook"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon facebook"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon failed"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon failed"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon family"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon family"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon female"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon female"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon file excel"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon file excel"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon file export"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon file export"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon file import"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon file import"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon file pdf"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon file pdf"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon file"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon file"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon filter"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon filter"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon flag"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon flag"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon folder open"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon folder open"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon folder"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon folder"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format align center"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format align center"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format align justify"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format align justify"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format align left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format align left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format align right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format align right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format bold"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format bold"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format color fill"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format color fill"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format color text"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format color text"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format italic"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format italic"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon format underline"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon format underline"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon forward ten"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon forward ten"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon frequency"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon frequency"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon fullscreen exit"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon fullscreen exit"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon fullscreen"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon fullscreen"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon gain"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon gain"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon gender"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon gender"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon globe"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon globe"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon google plus"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon google plus"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon help circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon help circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon hide"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon hide"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon home"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon home"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon housing"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon housing"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon image"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon image"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon income"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon income"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon infinity"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon infinity"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon info"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon info"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon interchange"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon interchange"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon kpi"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon kpi"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon lab"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon lab"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon label"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon label"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon lightbulb"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon lightbulb"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon linked off"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon linked off"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon linked"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon linked"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon linkedin"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon linkedin"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon list alt"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon list alt"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon list numbers"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon list numbers"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon list"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon list"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon location"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon location"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon lock"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon lock"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon logout"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon logout"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon long arrow left"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon long arrow left"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon long arrow right"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon long arrow right"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon luggage"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon luggage"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon mail"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon mail"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon male"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon male"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon marital status"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon marital status"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon menu"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon menu"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon merge"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon merge"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon microphone"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon microphone"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon minus circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon minus circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon mobile"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon mobile"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon mobile user"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon mobile user"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon move"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon move"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon panel"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon panel"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon path"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon path"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon pause solid"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon pause solid"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon pause"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon pause"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon phone"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon phone"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon play circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon play circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon play slides"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon play slides"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon play"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon play"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon presentation"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon presentation"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon process"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon process"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon protocol"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon protocol"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon puzzle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon puzzle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon qr"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon qr"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon question answer"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon question answer"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon random"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon random"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon recovery"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon recovery"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon refresh"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon refresh"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon replay five"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon replay five"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon replay ten"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon replay ten"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon reply"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon reply"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon report"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon report"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon restore"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon restore"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon results"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon results"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon rib"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon rib"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon rocket"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon rocket"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon search"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon search"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon segmentation"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon segmentation"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon send"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon send"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon settings"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon settings"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon severity critical"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon severity critical"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon severity minor"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon severity minor"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon severity serious"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon severity serious"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon sound file"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon sound file"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon speak"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon speak"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon specificities"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon specificities"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon speech to text"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon speech to text"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon speed playing"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon speed playing"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon split"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon split"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon squares"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon squares"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon star empty"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon star empty"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon star half empty"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon star half empty"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon star"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon star"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon star zero"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon star zero"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon step backward"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon step backward"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon step forward"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon step forward"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon stop"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon stop"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon successed"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon successed"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon swap horizontal"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon swap horizontal"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon swap vertical"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon swap vertical"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon synthesis"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon synthesis"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tablet"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tablet"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tag"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tag"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tags"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tags"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tasks"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tasks"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon testapic logo"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon testapic logo"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon testers"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon testers"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tests"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tests"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tform"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tform"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon thumb up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon thumb up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon timer"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon timer"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon trending down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon trending down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon trending neutral"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon trending neutral"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon trending up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon trending up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon trouble"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon trouble"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tsurvey"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tsurvey"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon tvideo"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon tvideo"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon twitter"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon twitter"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type checkbox"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type checkbox"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type checkboxes"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type checkboxes"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type droplist"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type droplist"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type grid"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type grid"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type input multi"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type input multi"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type input"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type input"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type interval"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type interval"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type multiple choices"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type multiple choices"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type none"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type none"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type opposite"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type opposite"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type radio"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type radio"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon type sort"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon type sort"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon undo"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon undo"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon unhide"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon unhide"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon upload"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon upload"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon user criteria"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon user criteria"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon user refuse"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon user refuse"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon user refused"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon user refused"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon user"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon user"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon user validated"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon user validated"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon users add"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon users add"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon users"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon users"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon valency negative"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon valency negative"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon valency neutral"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon valency neutral"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon valency positive"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon valency positive"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon verbatims"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon verbatims"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon video off"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon video off"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon video sound"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon video sound"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon video"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon video"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon volume down"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon volume down"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon volume off"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon volume off"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon volume"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon volume"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon volume up"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon volume up"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon wait"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon wait"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon warning circle"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon warning circle"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon warning sign"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon warning sign"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon windows"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon windows"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon youtube play"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon youtube play"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+	<div class="column center aligned">
+		<div class="segments compact flat">
+			<div class="segment">
+				<i class="icon youtube"></i>
+			</div>
+			<div class="segment secondary">
+				<pre
+					contenteditable="true">&lt;i class="icon youtube"&gt;&lt;/i&gt;</pre>
+			</div>
+		</div>
+	</div>
+</div>
+```
+*/
+@font-face {
+font-family: "ds-icons";
+src: url("ds-icons.eot?3f9de400d9985db5594cf357ee8c350a?#iefix") format("embedded-opentype"),
+url("ds-icons.woff2?3f9de400d9985db5594cf357ee8c350a") format("woff2"),
+url("ds-icons.woff?3f9de400d9985db5594cf357ee8c350a") format("woff");
+}
+
+i.icon,
+ul.icon > li::before,
+ul > li.icon::before {
+display: inline-block;
+line-height: 1;
+font-size: 1.5em;
+height: 1em;
+width: 1em;
+text-align: center;
+vertical-align: middle;
+speak: none;
+backface-visibility: hidden;
+}
+
+i.icon::before,
+ul.icon > li::before,
+ul > li.icon::before {
+font-family: ds-icons !important;
+font-style: normal;
+font-weight: normal !important;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+
+ul.icon > li::before,
+ul > li.icon::before {
+margin-right: .5em;
+vertical-align: text-top;
+}
+
+i.icon.account.box::before,
+ul.icon.account.box > li::before,
+ul > li.icon.account.box::before {
+content: "\f101";
+}
+i.icon.account.circle::before,
+ul.icon.account.circle > li::before,
+ul > li.icon.account.circle::before {
+content: "\f102";
+}
+i.icon.account::before,
+ul.icon.account > li::before,
+ul > li.icon.account::before {
+content: "\f103";
+}
+i.icon.actions::before,
+ul.icon.actions > li::before,
+ul > li.icon.actions::before {
+content: "\f104";
+}
+i.icon.activity::before,
+ul.icon.activity > li::before,
+ul > li.icon.activity::before {
+content: "\f105";
+}
+i.icon.add::before,
+ul.icon.add > li::before,
+ul > li.icon.add::before {
+content: "\f106";
+}
+i.icon.affectations::before,
+ul.icon.affectations > li::before,
+ul > li.icon.affectations::before {
+content: "\f107";
+}
+i.icon.age::before,
+ul.icon.age > li::before,
+ul > li.icon.age::before {
+content: "\f108";
+}
+i.icon.analyze::before,
+ul.icon.analyze > li::before,
+ul > li.icon.analyze::before {
+content: "\f109";
+}
+i.icon.android::before,
+ul.icon.android > li::before,
+ul > li.icon.android::before {
+content: "\f10a";
+}
+i.icon.apple::before,
+ul.icon.apple > li::before,
+ul > li.icon.apple::before {
+content: "\f10b";
+}
+i.icon.archive::before,
+ul.icon.archive > li::before,
+ul > li.icon.archive::before {
+content: "\f10c";
+}
+i.icon.arrow.down::before,
+ul.icon.arrow.down > li::before,
+ul > li.icon.arrow.down::before {
+content: "\f10d";
+}
+i.icon.arrow.left::before,
+ul.icon.arrow.left > li::before,
+ul > li.icon.arrow.left::before {
+content: "\f10e";
+}
+i.icon.arrow.right::before,
+ul.icon.arrow.right > li::before,
+ul > li.icon.arrow.right::before {
+content: "\f10f";
+}
+i.icon.arrow.up::before,
+ul.icon.arrow.up > li::before,
+ul > li.icon.arrow.up::before {
+content: "\f110";
+}
+i.icon.arrows::before,
+ul.icon.arrows > li::before,
+ul > li.icon.arrows::before {
+content: "\f111";
+}
+i.icon.asterisk::before,
+ul.icon.asterisk > li::before,
+ul > li.icon.asterisk::before {
+content: "\f112";
+}
+i.icon.auth::before,
+ul.icon.auth > li::before,
+ul > li.icon.auth::before {
+content: "\f113";
+}
+i.icon.back::before,
+ul.icon.back > li::before,
+ul > li.icon.back::before {
+content: "\f114";
+}
+i.icon.bank::before,
+ul.icon.bank > li::before,
+ul > li.icon.bank::before {
+content: "\f115";
+}
+i.icon.birthday::before,
+ul.icon.birthday > li::before,
+ul > li.icon.birthday::before {
+content: "\f116";
+}
+i.icon.briefcase::before,
+ul.icon.briefcase > li::before,
+ul > li.icon.briefcase::before {
+content: "\f117";
+}
+i.icon.bug::before,
+ul.icon.bug > li::before,
+ul > li.icon.bug::before {
+content: "\f118";
+}
+i.icon.bullhorn::before,
+ul.icon.bullhorn > li::before,
+ul > li.icon.bullhorn::before {
+content: "\f119";
+}
+i.icon.calendar::before,
+ul.icon.calendar > li::before,
+ul > li.icon.calendar::before {
+content: "\f11a";
+}
+i.icon.call::before,
+ul.icon.call > li::before,
+ul > li.icon.call::before {
+content: "\f11b";
+}
+i.icon.campaign::before,
+ul.icon.campaign > li::before,
+ul > li.icon.campaign::before {
+content: "\f11c";
+}
+i.icon.captions::before,
+ul.icon.captions > li::before,
+ul > li.icon.captions::before {
+content: "\f11d";
+}
+i.icon.car::before,
+ul.icon.car > li::before,
+ul > li.icon.car::before {
+content: "\f11e";
+}
+i.icon.carret.circle.down::before,
+ul.icon.carret.circle.down > li::before,
+ul > li.icon.carret.circle.down::before {
+content: "\f11f";
+}
+i.icon.carret.circle.left::before,
+ul.icon.carret.circle.left > li::before,
+ul > li.icon.carret.circle.left::before {
+content: "\f120";
+}
+i.icon.carret.circle.right::before,
+ul.icon.carret.circle.right > li::before,
+ul > li.icon.carret.circle.right::before {
+content: "\f121";
+}
+i.icon.carret.circle.up::before,
+ul.icon.carret.circle.up > li::before,
+ul > li.icon.carret.circle.up::before {
+content: "\f122";
+}
+i.icon.carret.down::before,
+ul.icon.carret.down > li::before,
+ul > li.icon.carret.down::before {
+content: "\f123";
+}
+i.icon.carret.left::before,
+ul.icon.carret.left > li::before,
+ul > li.icon.carret.left::before {
+content: "\f124";
+}
+i.icon.carret.right::before,
+ul.icon.carret.right > li::before,
+ul > li.icon.carret.right::before {
+content: "\f125";
+}
+i.icon.carret.up::before,
+ul.icon.carret.up > li::before,
+ul > li.icon.carret.up::before {
+content: "\f126";
+}
+i.icon.cart::before,
+ul.icon.cart > li::before,
+ul > li.icon.cart::before {
+content: "\f127";
+}
+i.icon.chart.areaspline::before,
+ul.icon.chart.areaspline > li::before,
+ul > li.icon.chart.areaspline::before {
+content: "\f128";
+}
+i.icon.chart.bar::before,
+ul.icon.chart.bar > li::before,
+ul > li.icon.chart.bar::before {
+content: "\f129";
+}
+i.icon.chart.donut::before,
+ul.icon.chart.donut > li::before,
+ul > li.icon.chart.donut::before {
+content: "\f12a";
+}
+i.icon.chart.line::before,
+ul.icon.chart.line > li::before,
+ul > li.icon.chart.line::before {
+content: "\f12b";
+}
+i.icon.chart.pie::before,
+ul.icon.chart.pie > li::before,
+ul > li.icon.chart.pie::before {
+content: "\f12c";
+}
+i.icon.check::before,
+ul.icon.check > li::before,
+ul > li.icon.check::before {
+content: "\f12d";
+}
+i.icon.chevron.double.down::before,
+ul.icon.chevron.double.down > li::before,
+ul > li.icon.chevron.double.down::before {
+content: "\f12e";
+}
+i.icon.chevron.double.up::before,
+ul.icon.chevron.double.up > li::before,
+ul > li.icon.chevron.double.up::before {
+content: "\f12f";
+}
+i.icon.chevron.down::before,
+ul.icon.chevron.down > li::before,
+ul > li.icon.chevron.down::before {
+content: "\f130";
+}
+i.icon.chevron.left::before,
+ul.icon.chevron.left > li::before,
+ul > li.icon.chevron.left::before {
+content: "\f131";
+}
+i.icon.chevron.right::before,
+ul.icon.chevron.right > li::before,
+ul > li.icon.chevron.right::before {
+content: "\f132";
+}
+i.icon.chevron.up::before,
+ul.icon.chevron.up > li::before,
+ul > li.icon.chevron.up::before {
+content: "\f133";
+}
+i.icon.children::before,
+ul.icon.children > li::before,
+ul > li.icon.children::before {
+content: "\f134";
+}
+i.icon.chrome::before,
+ul.icon.chrome > li::before,
+ul > li.icon.chrome::before {
+content: "\f135";
+}
+i.icon.circle.notched::before,
+ul.icon.circle.notched > li::before,
+ul > li.icon.circle.notched::before {
+content: "\f136";
+}
+i.icon.clock::before,
+ul.icon.clock > li::before,
+ul > li.icon.clock::before {
+content: "\f137";
+}
+i.icon.close::before,
+ul.icon.close > li::before,
+ul > li.icon.close::before {
+content: "\f138";
+}
+i.icon.closing::before,
+ul.icon.closing > li::before,
+ul > li.icon.closing::before {
+content: "\f139";
+}
+i.icon.cloud::before,
+ul.icon.cloud > li::before,
+ul > li.icon.cloud::before {
+content: "\f13a";
+}
+i.icon.code::before,
+ul.icon.code > li::before,
+ul > li.icon.code::before {
+content: "\f13b";
+}
+i.icon.color.edit::before,
+ul.icon.color.edit > li::before,
+ul > li.icon.color.edit::before {
+content: "\f13c";
+}
+i.icon.comment::before,
+ul.icon.comment > li::before,
+ul > li.icon.comment::before {
+content: "\f13d";
+}
+i.icon.company::before,
+ul.icon.company > li::before,
+ul > li.icon.company::before {
+content: "\f13e";
+}
+i.icon.copy::before,
+ul.icon.copy > li::before,
+ul > li.icon.copy::before {
+content: "\f13f";
+}
+i.icon.country::before,
+ul.icon.country > li::before,
+ul > li.icon.country::before {
+content: "\f140";
+}
+i.icon.credit::before,
+ul.icon.credit > li::before,
+ul > li.icon.credit::before {
+content: "\f141";
+}
+i.icon.csp::before,
+ul.icon.csp > li::before,
+ul > li.icon.csp::before {
+content: "\f142";
+}
+i.icon.cut::before,
+ul.icon.cut > li::before,
+ul > li.icon.cut::before {
+content: "\f143";
+}
+i.icon.dashboard::before,
+ul.icon.dashboard > li::before,
+ul > li.icon.dashboard::before {
+content: "\f144";
+}
+i.icon.data.sources::before,
+ul.icon.data.sources > li::before,
+ul > li.icon.data.sources::before {
+content: "\f145";
+}
+i.icon.datas.compiled::before,
+ul.icon.datas.compiled > li::before,
+ul > li.icon.datas.compiled::before {
+content: "\f146";
+}
+i.icon.delete::before,
+ul.icon.delete > li::before,
+ul > li.icon.delete::before {
+content: "\f147";
+}
+i.icon.desktop::before,
+ul.icon.desktop > li::before,
+ul > li.icon.desktop::before {
+content: "\f148";
+}
+i.icon.devices::before,
+ul.icon.devices > li::before,
+ul > li.icon.devices::before {
+content: "\f149";
+}
+i.icon.dots.horizontal::before,
+ul.icon.dots.horizontal > li::before,
+ul > li.icon.dots.horizontal::before {
+content: "\f14a";
+}
+i.icon.dots.vertical::before,
+ul.icon.dots.vertical > li::before,
+ul > li.icon.dots.vertical::before {
+content: "\f14b";
+}
+i.icon.download::before,
+ul.icon.download > li::before,
+ul > li.icon.download::before {
+content: "\f14c";
+}
+i.icon.driver.licence::before,
+ul.icon.driver.licence > li::before,
+ul > li.icon.driver.licence::before {
+content: "\f14d";
+}
+i.icon.edit::before,
+ul.icon.edit > li::before,
+ul > li.icon.edit::before {
+content: "\f14e";
+}
+i.icon.electron::before,
+ul.icon.electron > li::before,
+ul > li.icon.electron::before {
+content: "\f14f";
+}
+i.icon.error.circle::before,
+ul.icon.error.circle > li::before,
+ul > li.icon.error.circle::before {
+content: "\f150";
+}
+i.icon.error::before,
+ul.icon.error > li::before,
+ul > li.icon.error::before {
+content: "\f151";
+}
+i.icon.export.png::before,
+ul.icon.export.png > li::before,
+ul > li.icon.export.png::before {
+content: "\f152";
+}
+i.icon.external.link::before,
+ul.icon.external.link > li::before,
+ul > li.icon.external.link::before {
+content: "\f153";
+}
+i.icon.eye::before,
+ul.icon.eye > li::before,
+ul > li.icon.eye::before {
+content: "\f154";
+}
+i.icon.facebook::before,
+ul.icon.facebook > li::before,
+ul > li.icon.facebook::before {
+content: "\f155";
+}
+i.icon.failed::before,
+ul.icon.failed > li::before,
+ul > li.icon.failed::before {
+content: "\f156";
+}
+i.icon.family::before,
+ul.icon.family > li::before,
+ul > li.icon.family::before {
+content: "\f157";
+}
+i.icon.female::before,
+ul.icon.female > li::before,
+ul > li.icon.female::before {
+content: "\f158";
+}
+i.icon.file.excel::before,
+ul.icon.file.excel > li::before,
+ul > li.icon.file.excel::before {
+content: "\f159";
+}
+i.icon.file.export::before,
+ul.icon.file.export > li::before,
+ul > li.icon.file.export::before {
+content: "\f15a";
+}
+i.icon.file.import::before,
+ul.icon.file.import > li::before,
+ul > li.icon.file.import::before {
+content: "\f15b";
+}
+i.icon.file.pdf::before,
+ul.icon.file.pdf > li::before,
+ul > li.icon.file.pdf::before {
+content: "\f15c";
+}
+i.icon.file::before,
+ul.icon.file > li::before,
+ul > li.icon.file::before {
+content: "\f15d";
+}
+i.icon.filter::before,
+ul.icon.filter > li::before,
+ul > li.icon.filter::before {
+content: "\f15e";
+}
+i.icon.flag::before,
+ul.icon.flag > li::before,
+ul > li.icon.flag::before {
+content: "\f15f";
+}
+i.icon.folder.open::before,
+ul.icon.folder.open > li::before,
+ul > li.icon.folder.open::before {
+content: "\f160";
+}
+i.icon.folder::before,
+ul.icon.folder > li::before,
+ul > li.icon.folder::before {
+content: "\f161";
+}
+i.icon.format.align.center::before,
+ul.icon.format.align.center > li::before,
+ul > li.icon.format.align.center::before {
+content: "\f162";
+}
+i.icon.format.align.justify::before,
+ul.icon.format.align.justify > li::before,
+ul > li.icon.format.align.justify::before {
+content: "\f163";
+}
+i.icon.format.align.left::before,
+ul.icon.format.align.left > li::before,
+ul > li.icon.format.align.left::before {
+content: "\f164";
+}
+i.icon.format.align.right::before,
+ul.icon.format.align.right > li::before,
+ul > li.icon.format.align.right::before {
+content: "\f165";
+}
+i.icon.format.bold::before,
+ul.icon.format.bold > li::before,
+ul > li.icon.format.bold::before {
+content: "\f166";
+}
+i.icon.format.color.fill::before,
+ul.icon.format.color.fill > li::before,
+ul > li.icon.format.color.fill::before {
+content: "\f167";
+}
+i.icon.format.color.text::before,
+ul.icon.format.color.text > li::before,
+ul > li.icon.format.color.text::before {
+content: "\f168";
+}
+i.icon.format.italic::before,
+ul.icon.format.italic > li::before,
+ul > li.icon.format.italic::before {
+content: "\f169";
+}
+i.icon.format.underline::before,
+ul.icon.format.underline > li::before,
+ul > li.icon.format.underline::before {
+content: "\f16a";
+}
+i.icon.forward.ten::before,
+ul.icon.forward.ten > li::before,
+ul > li.icon.forward.ten::before {
+content: "\f16b";
+}
+i.icon.frequency::before,
+ul.icon.frequency > li::before,
+ul > li.icon.frequency::before {
+content: "\f16c";
+}
+i.icon.fullscreen.exit::before,
+ul.icon.fullscreen.exit > li::before,
+ul > li.icon.fullscreen.exit::before {
+content: "\f16d";
+}
+i.icon.fullscreen::before,
+ul.icon.fullscreen > li::before,
+ul > li.icon.fullscreen::before {
+content: "\f16e";
+}
+i.icon.gain::before,
+ul.icon.gain > li::before,
+ul > li.icon.gain::before {
+content: "\f16f";
+}
+i.icon.gender::before,
+ul.icon.gender > li::before,
+ul > li.icon.gender::before {
+content: "\f170";
+}
+i.icon.globe::before,
+ul.icon.globe > li::before,
+ul > li.icon.globe::before {
+content: "\f171";
+}
+i.icon.google.plus::before,
+ul.icon.google.plus > li::before,
+ul > li.icon.google.plus::before {
+content: "\f172";
+}
+i.icon.help.circle::before,
+ul.icon.help.circle > li::before,
+ul > li.icon.help.circle::before {
+content: "\f173";
+}
+i.icon.hide::before,
+ul.icon.hide > li::before,
+ul > li.icon.hide::before {
+content: "\f174";
+}
+i.icon.home::before,
+ul.icon.home > li::before,
+ul > li.icon.home::before {
+content: "\f175";
+}
+i.icon.housing::before,
+ul.icon.housing > li::before,
+ul > li.icon.housing::before {
+content: "\f176";
+}
+i.icon.image::before,
+ul.icon.image > li::before,
+ul > li.icon.image::before {
+content: "\f177";
+}
+i.icon.income::before,
+ul.icon.income > li::before,
+ul > li.icon.income::before {
+content: "\f178";
+}
+i.icon.infinity::before,
+ul.icon.infinity > li::before,
+ul > li.icon.infinity::before {
+content: "\f179";
+}
+i.icon.info::before,
+ul.icon.info > li::before,
+ul > li.icon.info::before {
+content: "\f17a";
+}
+i.icon.interchange::before,
+ul.icon.interchange > li::before,
+ul > li.icon.interchange::before {
+content: "\f17b";
+}
+i.icon.kpi::before,
+ul.icon.kpi > li::before,
+ul > li.icon.kpi::before {
+content: "\f17c";
+}
+i.icon.lab::before,
+ul.icon.lab > li::before,
+ul > li.icon.lab::before {
+content: "\f17d";
+}
+i.icon.label::before,
+ul.icon.label > li::before,
+ul > li.icon.label::before {
+content: "\f17e";
+}
+i.icon.lightbulb::before,
+ul.icon.lightbulb > li::before,
+ul > li.icon.lightbulb::before {
+content: "\f17f";
+}
+i.icon.linked.off::before,
+ul.icon.linked.off > li::before,
+ul > li.icon.linked.off::before {
+content: "\f180";
+}
+i.icon.linked::before,
+ul.icon.linked > li::before,
+ul > li.icon.linked::before {
+content: "\f181";
+}
+i.icon.linkedin::before,
+ul.icon.linkedin > li::before,
+ul > li.icon.linkedin::before {
+content: "\f182";
+}
+i.icon.list.alt::before,
+ul.icon.list.alt > li::before,
+ul > li.icon.list.alt::before {
+content: "\f183";
+}
+i.icon.list.numbers::before,
+ul.icon.list.numbers > li::before,
+ul > li.icon.list.numbers::before {
+content: "\f184";
+}
+i.icon.list::before,
+ul.icon.list > li::before,
+ul > li.icon.list::before {
+content: "\f185";
+}
+i.icon.location::before,
+ul.icon.location > li::before,
+ul > li.icon.location::before {
+content: "\f186";
+}
+i.icon.lock::before,
+ul.icon.lock > li::before,
+ul > li.icon.lock::before {
+content: "\f187";
+}
+i.icon.logout::before,
+ul.icon.logout > li::before,
+ul > li.icon.logout::before {
+content: "\f188";
+}
+i.icon.long.arrow.left::before,
+ul.icon.long.arrow.left > li::before,
+ul > li.icon.long.arrow.left::before {
+content: "\f189";
+}
+i.icon.long.arrow.right::before,
+ul.icon.long.arrow.right > li::before,
+ul > li.icon.long.arrow.right::before {
+content: "\f18a";
+}
+i.icon.luggage::before,
+ul.icon.luggage > li::before,
+ul > li.icon.luggage::before {
+content: "\f18b";
+}
+i.icon.mail::before,
+ul.icon.mail > li::before,
+ul > li.icon.mail::before {
+content: "\f18c";
+}
+i.icon.male::before,
+ul.icon.male > li::before,
+ul > li.icon.male::before {
+content: "\f18d";
+}
+i.icon.marital.status::before,
+ul.icon.marital.status > li::before,
+ul > li.icon.marital.status::before {
+content: "\f18e";
+}
+i.icon.menu::before,
+ul.icon.menu > li::before,
+ul > li.icon.menu::before {
+content: "\f18f";
+}
+i.icon.merge::before,
+ul.icon.merge > li::before,
+ul > li.icon.merge::before {
+content: "\f190";
+}
+i.icon.microphone::before,
+ul.icon.microphone > li::before,
+ul > li.icon.microphone::before {
+content: "\f191";
+}
+i.icon.minus.circle::before,
+ul.icon.minus.circle > li::before,
+ul > li.icon.minus.circle::before {
+content: "\f192";
+}
+i.icon.mobile::before,
+ul.icon.mobile > li::before,
+ul > li.icon.mobile::before {
+content: "\f193";
+}
+i.icon.mobile.user::before,
+ul.icon.mobile.user > li::before,
+ul > li.icon.mobile.user::before {
+content: "\f194";
+}
+i.icon.move::before,
+ul.icon.move > li::before,
+ul > li.icon.move::before {
+content: "\f195";
+}
+i.icon.panel::before,
+ul.icon.panel > li::before,
+ul > li.icon.panel::before {
+content: "\f196";
+}
+i.icon.path::before,
+ul.icon.path > li::before,
+ul > li.icon.path::before {
+content: "\f197";
+}
+i.icon.pause.solid::before,
+ul.icon.pause.solid > li::before,
+ul > li.icon.pause.solid::before {
+content: "\f198";
+}
+i.icon.pause::before,
+ul.icon.pause > li::before,
+ul > li.icon.pause::before {
+content: "\f199";
+}
+i.icon.phone::before,
+ul.icon.phone > li::before,
+ul > li.icon.phone::before {
+content: "\f19a";
+}
+i.icon.play.circle::before,
+ul.icon.play.circle > li::before,
+ul > li.icon.play.circle::before {
+content: "\f19b";
+}
+i.icon.play.slides::before,
+ul.icon.play.slides > li::before,
+ul > li.icon.play.slides::before {
+content: "\f19c";
+}
+i.icon.play::before,
+ul.icon.play > li::before,
+ul > li.icon.play::before {
+content: "\f19d";
+}
+i.icon.presentation::before,
+ul.icon.presentation > li::before,
+ul > li.icon.presentation::before {
+content: "\f19e";
+}
+i.icon.process::before,
+ul.icon.process > li::before,
+ul > li.icon.process::before {
+content: "\f19f";
+}
+i.icon.protocol::before,
+ul.icon.protocol > li::before,
+ul > li.icon.protocol::before {
+content: "\f1a0";
+}
+i.icon.puzzle::before,
+ul.icon.puzzle > li::before,
+ul > li.icon.puzzle::before {
+content: "\f1a1";
+}
+i.icon.qr::before,
+ul.icon.qr > li::before,
+ul > li.icon.qr::before {
+content: "\f1a2";
+}
+i.icon.question.answer::before,
+ul.icon.question.answer > li::before,
+ul > li.icon.question.answer::before {
+content: "\f1a3";
+}
+i.icon.random::before,
+ul.icon.random > li::before,
+ul > li.icon.random::before {
+content: "\f1a4";
+}
+i.icon.recovery::before,
+ul.icon.recovery > li::before,
+ul > li.icon.recovery::before {
+content: "\f1a5";
+}
+i.icon.refresh::before,
+ul.icon.refresh > li::before,
+ul > li.icon.refresh::before {
+content: "\f1a6";
+}
+i.icon.replay.five::before,
+ul.icon.replay.five > li::before,
+ul > li.icon.replay.five::before {
+content: "\f1a7";
+}
+i.icon.replay.ten::before,
+ul.icon.replay.ten > li::before,
+ul > li.icon.replay.ten::before {
+content: "\f1a8";
+}
+i.icon.reply::before,
+ul.icon.reply > li::before,
+ul > li.icon.reply::before {
+content: "\f1a9";
+}
+i.icon.report::before,
+ul.icon.report > li::before,
+ul > li.icon.report::before {
+content: "\f1aa";
+}
+i.icon.restore::before,
+ul.icon.restore > li::before,
+ul > li.icon.restore::before {
+content: "\f1ab";
+}
+i.icon.results::before,
+ul.icon.results > li::before,
+ul > li.icon.results::before {
+content: "\f1ac";
+}
+i.icon.rib::before,
+ul.icon.rib > li::before,
+ul > li.icon.rib::before {
+content: "\f1ad";
+}
+i.icon.rocket::before,
+ul.icon.rocket > li::before,
+ul > li.icon.rocket::before {
+content: "\f1ae";
+}
+i.icon.search::before,
+ul.icon.search > li::before,
+ul > li.icon.search::before {
+content: "\f1af";
+}
+i.icon.segmentation::before,
+ul.icon.segmentation > li::before,
+ul > li.icon.segmentation::before {
+content: "\f1b0";
+}
+i.icon.send::before,
+ul.icon.send > li::before,
+ul > li.icon.send::before {
+content: "\f1b1";
+}
+i.icon.settings::before,
+ul.icon.settings > li::before,
+ul > li.icon.settings::before {
+content: "\f1b2";
+}
+i.icon.severity.critical::before,
+ul.icon.severity.critical > li::before,
+ul > li.icon.severity.critical::before {
+content: "\f1b3";
+}
+i.icon.severity.minor::before,
+ul.icon.severity.minor > li::before,
+ul > li.icon.severity.minor::before {
+content: "\f1b4";
+}
+i.icon.severity.serious::before,
+ul.icon.severity.serious > li::before,
+ul > li.icon.severity.serious::before {
+content: "\f1b5";
+}
+i.icon.sound.file::before,
+ul.icon.sound.file > li::before,
+ul > li.icon.sound.file::before {
+content: "\f1b6";
+}
+i.icon.speak::before,
+ul.icon.speak > li::before,
+ul > li.icon.speak::before {
+content: "\f1b7";
+}
+i.icon.specificities::before,
+ul.icon.specificities > li::before,
+ul > li.icon.specificities::before {
+content: "\f1b8";
+}
+i.icon.speech.to.text::before,
+ul.icon.speech.to.text > li::before,
+ul > li.icon.speech.to.text::before {
+content: "\f1b9";
+}
+i.icon.speed.playing::before,
+ul.icon.speed.playing > li::before,
+ul > li.icon.speed.playing::before {
+content: "\f1ba";
+}
+i.icon.split::before,
+ul.icon.split > li::before,
+ul > li.icon.split::before {
+content: "\f1bb";
+}
+i.icon.squares::before,
+ul.icon.squares > li::before,
+ul > li.icon.squares::before {
+content: "\f1bc";
+}
+i.icon.star.empty::before,
+ul.icon.star.empty > li::before,
+ul > li.icon.star.empty::before {
+content: "\f1bd";
+}
+i.icon.star.half.empty::before,
+ul.icon.star.half.empty > li::before,
+ul > li.icon.star.half.empty::before {
+content: "\f1be";
+}
+i.icon.star::before,
+ul.icon.star > li::before,
+ul > li.icon.star::before {
+content: "\f1bf";
+}
+i.icon.star.zero::before,
+ul.icon.star.zero > li::before,
+ul > li.icon.star.zero::before {
+content: "\f1c0";
+}
+i.icon.step.backward::before,
+ul.icon.step.backward > li::before,
+ul > li.icon.step.backward::before {
+content: "\f1c1";
+}
+i.icon.step.forward::before,
+ul.icon.step.forward > li::before,
+ul > li.icon.step.forward::before {
+content: "\f1c2";
+}
+i.icon.stop::before,
+ul.icon.stop > li::before,
+ul > li.icon.stop::before {
+content: "\f1c3";
+}
+i.icon.successed::before,
+ul.icon.successed > li::before,
+ul > li.icon.successed::before {
+content: "\f1c4";
+}
+i.icon.swap.horizontal::before,
+ul.icon.swap.horizontal > li::before,
+ul > li.icon.swap.horizontal::before {
+content: "\f1c5";
+}
+i.icon.swap.vertical::before,
+ul.icon.swap.vertical > li::before,
+ul > li.icon.swap.vertical::before {
+content: "\f1c6";
+}
+i.icon.synthesis::before,
+ul.icon.synthesis > li::before,
+ul > li.icon.synthesis::before {
+content: "\f1c7";
+}
+i.icon.tablet::before,
+ul.icon.tablet > li::before,
+ul > li.icon.tablet::before {
+content: "\f1c8";
+}
+i.icon.tag::before,
+ul.icon.tag > li::before,
+ul > li.icon.tag::before {
+content: "\f1c9";
+}
+i.icon.tags::before,
+ul.icon.tags > li::before,
+ul > li.icon.tags::before {
+content: "\f1ca";
+}
+i.icon.tasks::before,
+ul.icon.tasks > li::before,
+ul > li.icon.tasks::before {
+content: "\f1cb";
+}
+i.icon.testapic.logo::before,
+ul.icon.testapic.logo > li::before,
+ul > li.icon.testapic.logo::before {
+content: "\f1cc";
+}
+i.icon.testers::before,
+ul.icon.testers > li::before,
+ul > li.icon.testers::before {
+content: "\f1cd";
+}
+i.icon.tests::before,
+ul.icon.tests > li::before,
+ul > li.icon.tests::before {
+content: "\f1ce";
+}
+i.icon.tform::before,
+ul.icon.tform > li::before,
+ul > li.icon.tform::before {
+content: "\f1cf";
+}
+i.icon.thumb.up::before,
+ul.icon.thumb.up > li::before,
+ul > li.icon.thumb.up::before {
+content: "\f1d0";
+}
+i.icon.timer::before,
+ul.icon.timer > li::before,
+ul > li.icon.timer::before {
+content: "\f1d1";
+}
+i.icon.trending.down::before,
+ul.icon.trending.down > li::before,
+ul > li.icon.trending.down::before {
+content: "\f1d2";
+}
+i.icon.trending.neutral::before,
+ul.icon.trending.neutral > li::before,
+ul > li.icon.trending.neutral::before {
+content: "\f1d3";
+}
+i.icon.trending.up::before,
+ul.icon.trending.up > li::before,
+ul > li.icon.trending.up::before {
+content: "\f1d4";
+}
+i.icon.trouble::before,
+ul.icon.trouble > li::before,
+ul > li.icon.trouble::before {
+content: "\f1d5";
+}
+i.icon.tsurvey::before,
+ul.icon.tsurvey > li::before,
+ul > li.icon.tsurvey::before {
+content: "\f1d6";
+}
+i.icon.tvideo::before,
+ul.icon.tvideo > li::before,
+ul > li.icon.tvideo::before {
+content: "\f1d7";
+}
+i.icon.twitter::before,
+ul.icon.twitter > li::before,
+ul > li.icon.twitter::before {
+content: "\f1d8";
+}
+i.icon.type.checkbox::before,
+ul.icon.type.checkbox > li::before,
+ul > li.icon.type.checkbox::before {
+content: "\f1d9";
+}
+i.icon.type.checkboxes::before,
+ul.icon.type.checkboxes > li::before,
+ul > li.icon.type.checkboxes::before {
+content: "\f1da";
+}
+i.icon.type.droplist::before,
+ul.icon.type.droplist > li::before,
+ul > li.icon.type.droplist::before {
+content: "\f1db";
+}
+i.icon.type.grid::before,
+ul.icon.type.grid > li::before,
+ul > li.icon.type.grid::before {
+content: "\f1dc";
+}
+i.icon.type.input.multi::before,
+ul.icon.type.input.multi > li::before,
+ul > li.icon.type.input.multi::before {
+content: "\f1dd";
+}
+i.icon.type.input::before,
+ul.icon.type.input > li::before,
+ul > li.icon.type.input::before {
+content: "\f1de";
+}
+i.icon.type.interval::before,
+ul.icon.type.interval > li::before,
+ul > li.icon.type.interval::before {
+content: "\f1df";
+}
+i.icon.type.multiple.choices::before,
+ul.icon.type.multiple.choices > li::before,
+ul > li.icon.type.multiple.choices::before {
+content: "\f1e0";
+}
+i.icon.type.none::before,
+ul.icon.type.none > li::before,
+ul > li.icon.type.none::before {
+content: "\f1e1";
+}
+i.icon.type.opposite::before,
+ul.icon.type.opposite > li::before,
+ul > li.icon.type.opposite::before {
+content: "\f1e2";
+}
+i.icon.type.radio::before,
+ul.icon.type.radio > li::before,
+ul > li.icon.type.radio::before {
+content: "\f1e3";
+}
+i.icon.type.sort::before,
+ul.icon.type.sort > li::before,
+ul > li.icon.type.sort::before {
+content: "\f1e4";
+}
+i.icon.undo::before,
+ul.icon.undo > li::before,
+ul > li.icon.undo::before {
+content: "\f1e5";
+}
+i.icon.unhide::before,
+ul.icon.unhide > li::before,
+ul > li.icon.unhide::before {
+content: "\f1e6";
+}
+i.icon.upload::before,
+ul.icon.upload > li::before,
+ul > li.icon.upload::before {
+content: "\f1e7";
+}
+i.icon.user.criteria::before,
+ul.icon.user.criteria > li::before,
+ul > li.icon.user.criteria::before {
+content: "\f1e8";
+}
+i.icon.user.refuse::before,
+ul.icon.user.refuse > li::before,
+ul > li.icon.user.refuse::before {
+content: "\f1e9";
+}
+i.icon.user.refused::before,
+ul.icon.user.refused > li::before,
+ul > li.icon.user.refused::before {
+content: "\f1ea";
+}
+i.icon.user::before,
+ul.icon.user > li::before,
+ul > li.icon.user::before {
+content: "\f1eb";
+}
+i.icon.user.validated::before,
+ul.icon.user.validated > li::before,
+ul > li.icon.user.validated::before {
+content: "\f1ec";
+}
+i.icon.users.add::before,
+ul.icon.users.add > li::before,
+ul > li.icon.users.add::before {
+content: "\f1ed";
+}
+i.icon.users::before,
+ul.icon.users > li::before,
+ul > li.icon.users::before {
+content: "\f1ee";
+}
+i.icon.valency.negative::before,
+ul.icon.valency.negative > li::before,
+ul > li.icon.valency.negative::before {
+content: "\f1ef";
+}
+i.icon.valency.neutral::before,
+ul.icon.valency.neutral > li::before,
+ul > li.icon.valency.neutral::before {
+content: "\f1f0";
+}
+i.icon.valency.positive::before,
+ul.icon.valency.positive > li::before,
+ul > li.icon.valency.positive::before {
+content: "\f1f1";
+}
+i.icon.verbatims::before,
+ul.icon.verbatims > li::before,
+ul > li.icon.verbatims::before {
+content: "\f1f2";
+}
+i.icon.video.off::before,
+ul.icon.video.off > li::before,
+ul > li.icon.video.off::before {
+content: "\f1f3";
+}
+i.icon.video.sound::before,
+ul.icon.video.sound > li::before,
+ul > li.icon.video.sound::before {
+content: "\f1f4";
+}
+i.icon.video::before,
+ul.icon.video > li::before,
+ul > li.icon.video::before {
+content: "\f1f5";
+}
+i.icon.volume.down::before,
+ul.icon.volume.down > li::before,
+ul > li.icon.volume.down::before {
+content: "\f1f6";
+}
+i.icon.volume.off::before,
+ul.icon.volume.off > li::before,
+ul > li.icon.volume.off::before {
+content: "\f1f7";
+}
+i.icon.volume::before,
+ul.icon.volume > li::before,
+ul > li.icon.volume::before {
+content: "\f1f8";
+}
+i.icon.volume.up::before,
+ul.icon.volume.up > li::before,
+ul > li.icon.volume.up::before {
+content: "\f1f9";
+}
+i.icon.wait::before,
+ul.icon.wait > li::before,
+ul > li.icon.wait::before {
+content: "\f1fa";
+}
+i.icon.warning.circle::before,
+ul.icon.warning.circle > li::before,
+ul > li.icon.warning.circle::before {
+content: "\f1fb";
+}
+i.icon.warning.sign::before,
+ul.icon.warning.sign > li::before,
+ul > li.icon.warning.sign::before {
+content: "\f1fc";
+}
+i.icon.windows::before,
+ul.icon.windows > li::before,
+ul > li.icon.windows::before {
+content: "\f1fd";
+}
+i.icon.youtube.play::before,
+ul.icon.youtube.play > li::before,
+ul > li.icon.youtube.play::before {
+content: "\f1fe";
+}
+i.icon.youtube::before,
+ul.icon.youtube > li::before,
+ul > li.icon.youtube::before {
+content: "\f1ff";
+}

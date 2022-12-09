@@ -1,0 +1,46 @@
+.loading {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba($white, .85);
+	align-items: center;
+	justify-content: center;
+
+	@include z-index(loader);
+
+	&.inline {
+		display: inline-flex;
+		position: unset;
+		height: unset;
+		width: unset;
+	}
+
+	.loader {
+		$size: 2rem;
+
+		border-radius: 50%;
+		border: decimal-round(math.div($size, 10), 1) solid rgba(black, 0.2);
+		border-top-color: $default-color;
+		height: $size;
+		width: $size;
+
+		animation: rotation .8s infinite linear;
+
+		&.small {
+			$multiplicator: .7;
+			width: decimal-round($size * $multiplicator, 1);
+			height: decimal-round($size * $multiplicator, 1);
+			border-width: decimal-round($size * math.div($multiplicator, 6), 1);
+		}
+
+		&.big {
+			$multiplicator: 1.5;
+			width: decimal-round($size * $multiplicator, 1);
+			height: decimal-round($size * $multiplicator, 1);
+			border-width: decimal-round($size * math.div($multiplicator, 12), 1);
+		}
+	}
+}

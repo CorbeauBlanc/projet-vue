@@ -1,0 +1,187 @@
+@use "sass:math";
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+.table {
+	border: none;
+	max-width: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: $small-radius;
+	margin-bottom: $padding;
+	text-align: left;
+	font-size: .9rem;
+
+	&.compact {
+
+		td,
+		th {
+			padding: math.div($padding, 4) math.div($padding, 8);
+		}
+	}
+
+	tbody td,
+	thead th {
+		line-height: normal;
+		padding: math.div($padding, 2) math.div($padding, 4);
+
+
+		@include ellipsis();
+
+		&:first-child {
+			padding-left: $padding;
+		}
+
+		&:last-child {
+			padding-right: $padding;
+		}
+
+		&[colspan]:not([colspan="1"]) {
+			padding: 0;
+		}
+
+		i.icon:not(:only-child) {
+			font-size: 1.2rem;
+			margin-right: math.div($padding, 4);
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	thead {
+		th {
+			position: sticky;
+			top: 0;
+			background: $white;
+			z-index: 1;
+			padding-top: $padding;
+			padding-bottom: $padding;
+
+			&.sorted {
+				span {
+					color: $primary-color;
+
+					.icon.carret {
+						align-self: center;
+						display: block;
+					}
+				}
+			}
+
+			&.sortable {
+				span {
+					@include clickable-text;
+				}
+			}
+
+			&>div {
+				display: flex;
+				align-items: center;
+
+				span {
+					color: $text-color;
+					flex-grow: 1;
+
+					.icon.carret {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	tbody {
+		tr {
+			&:not(:last-child) {
+				border-bottom: $border-width solid $border-color;
+			}
+
+			&:not(.sub-table):hover {
+				background: scale-color($primary-color, $lightness: 90%);
+
+				td {
+					color: $text-color;
+				}
+			}
+
+			td {
+				color: $text-muted;
+
+				&.warning,
+				&.yellow {
+					background: scale-color($yellow, $lightness: 90%);
+				}
+
+				&.positive,
+				&.green {
+					background: scale-color($green, $lightness: 90%);
+				}
+
+				&.negative,
+				&.red {
+					background: scale-color($red, $lightness: 90%);
+				}
+			}
+		}
+	}
+}
+
+.actions {
+	display: inline-block;
+	text-align: right;
+	white-space: nowrap;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	a.button.icon,
+	button.button.icon {
+		position: relative;
+		background: none;
+		border: none;
+		display: inline-flex;
+		vertical-align: initial;
+		align-items: center;
+		font-size: 0.7rem;
+		border-radius: $rounded;
+		padding: math.div($padding, 4);
+		color: $primary-color;
+		margin-right: 0;
+
+		&:not(:first-child) {
+			margin-left: math.div($padding, 4);
+		}
+
+		&:hover {
+			background: rgba($default-color, .1);
+			border: none;
+			box-shadow: none;
+		}
+
+		.icon {
+			font-size: 1.2rem;
+			width: 1.3rem;
+			height: 1.3rem;
+		}
+
+		span {
+			&.left {
+				margin-right: math.div($padding, 4);
+			}
+
+			&.right {
+				margin-left: math.div($padding, 4);
+			}
+		}
+
+		&.toggle {
+			&.active {
+				background: $green;
+				color: $white;
+			}
+		}
+
+	}
+}

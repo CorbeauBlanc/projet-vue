@@ -1,0 +1,1070 @@
+/*
+---
+name: Grids
+category: Components
+head: <link rel="stylesheet" href=“override-grid.css" />
+headHtml: <link rel="stylesheet" href="override-grid.css" />
+---
+
+
+Containers
+```containers-types.html
+<div class="container with-bg-colors">
+		<p>Container (90%)</p>
+</div>
+
+<div class="fluid container with-bg-colors">
+		<p>Fluid container (100%)</p>
+</div>
+
+<div class="text container with-bg-colors">
+		<h4>Text container</h4>
+		<p>Capped with a max-width. A text container is a simpler markup alternative to using a grid with a single column, and is designed to have a reasonable maximum width for displaying flowing text</p>
+		<h4>Grid inside a text container</h4>
+		<div class="grid with-bg-colors">
+				<div class="four wide column">
+						<p>Four wide column</p>
+				</div>
+				<div class="three wide column">
+						<p>Three wide column</p>
+				</div>
+				<div class="two wide column">
+						<p>Two wide column</p>
+				</div>
+				<div class="fill column">
+						<p>Fill column</p>
+				</div>
+		</div>
+</div>
+```
+
+Column count
+```column-count-types.html
+<div class="two column grid with-bg-colors">
+		<div class="column">
+				<p>Two column limited grid</p>
+		</div>
+		<div class="column">
+				<p>Two column limited grid</p>
+		</div>
+</div>
+
+<div class="five column grid with-bg-colors">
+		<div class="column">
+				<p>Five column limited grid</p>
+		</div>
+		<div class="column">
+				<p>Five column limited grid</p>
+		</div>
+		<div class="column">
+				<p>Five column limited grid</p>
+		</div>
+		<div class="column">
+				<p>Two column limited grid</p>
+		</div>
+		<div class="column">
+				<p>Two column limited grid</p>
+		</div>
+</div>
+```
+
+Auto fill column
+```column-autofill-types.html
+<div class="grid with-bg-colors">
+		<div class="column">
+				<p>Automatically wide resize column</p>
+		</div>
+		<div class="column">
+				<p>Automatically wide resize column</p>
+		</div>
+</div>
+```
+
+Column wide defining
+```column-wide-types.html
+<div class="grid with-bg-colors">
+		<div class="four wide column">
+				<p>Four wide column</p>
+		</div>
+		<div class="three wide column">
+				<p>Three wide column</p>
+		</div>
+		<div class="two wide column">
+				<p>Two wide column</p>
+		</div>
+		<div class="fill column">
+				<p>Fill column</p>
+		</div>
+</div>
+```
+
+Column visibility on specific device
+```column-visibility-types.html
+<div class="grid with-bg-colors">
+		<div class="eight wide on mobile
+			six wide on tablet
+			five wide on desktop
+			column">
+				<p>Eight wide on mobile, six wide on tablet and five wide on desktop column</p>
+		</div>
+		<div class="four wide on mobile
+			fill on desktop
+			column">
+				<p>Four wide on mobile, four wide on tablet and fill on desktop column</p>
+		</div>
+</div>
+<div class="grid with-bg-colors">
+		<div class="mobile only
+			column">
+				<p>Mobile only column</p>
+		</div>
+		<div class="tablet only
+			column">
+				<p>Tablet only column</p>
+		</div>
+		<div class="desktop only
+			column">
+				<p>Desktop only column</p>
+		</div>
+		<div class="mobile and tablet only
+			column">
+				<p>Mobile and tablet only</p>
+		</div>
+		<div class="mobile and desktop only
+			column">
+				<p>Mobile and desktop only</p>
+		</div>
+		<div class="tablet and desktop only
+			column">
+				<p>Tablet and desktop only</p>
+		</div>
+</div>
+```
+
+Stackable grid
+```stackable-types.html
+<div class="stackable grid with-bg-colors">
+		<div class="nine wide column">
+				<p>Stackable nine wide column</p>
+		</div>
+		<div class="three wide column">
+				<p>Stackable three wide column</p>
+		</div>
+</div>
+```
+
+Reversed grid
+```reversed-types.html
+<div class="reversed grid with-bg-colors">
+		<div class="column">
+				<p>Reversed column 1</p>
+		</div>
+		<div class="column">
+				<p>Reversed column 2</p>
+		</div>
+		<div class="column">
+				<p>Reversed column 3</p>
+		</div>
+</div>
+
+<div class="reversed stackable grid with-bg-colors">
+		<div class="column">
+				<p>Reversed stackable column 1</p>
+		</div>
+		<div class="column">
+				<p>Reversed stackable column 2</p>
+		</div>
+</div>
+```
+
+Offset column
+```offset-types.html
+<div class="grid col-offset-demo with-bg-colors">
+		<div class="ten wide on mobile
+			four wide on desktop
+			offset two column">
+				<p>Offset two column</p>
+		</div>
+</div>
+
+<div class="centered grid col-offset-demo with-bg-colors">
+		<div class="four wide column">
+				<p>Centered column</p>
+		</div>
+</div>
+
+<div class="grid col-offset-demo with-bg-colors">
+		<div class="six wide on mobile
+			offset six on tablet
+			five wide on desktop
+			offset zero on desktop
+			column">
+				<p>Offset only on tablet column</p>
+		</div>
+</div>
+```
+
+Nested grids
+```nested-types.html
+<div class="centered grid with-bg-colors">
+	<div class="six wide column">
+			<p>Nested columns</p>
+			<div class="grid">
+					<div class="five wide column">
+							<p>Nested 1</p>
+					</div>
+					<div class="fill column">
+							<div class="grid">
+									<div class="column">
+											<p>More nested</p>
+									</div>
+									<div class="column">
+											<div class="grid">
+													<div class="fill column">
+															<div class="grid">
+																	<div class="column">
+																			<p>More nested</p>
+																	</div>
+																	<div class="column">
+																			<p>More nested</p>
+																	</div>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+	</div>
+</div>
+```
+
+Grid alignment
+```grid-align-types.html
+<div class="three column grid top aligned with-bg-colors">
+		<div class="column">grid top aligned</div>
+		<div class="column">grid top aligned</div>
+		<div class="column">grid top aligned</div>
+</div>
+<div class="three column grid bottom aligned with-bg-colors">
+		<div class="column">grid bottom aligned</div>
+		<div class="column">grid bottom aligned</div>
+		<div class="column">grid bottom aligned</div>
+</div>
+<div class="three column grid middle aligned with-bg-colors">
+		<div class="column">grid middle aligned</div>
+		<div class="column">grid middle aligned</div>
+		<div class="column">grid middle aligned</div>
+</div>
+<div class="grid left aligned with-bg-colors">
+		<div class="two wide column">grid left aligned</div>
+		<div class="two wide column">grid left aligned</div>
+		<div class="two wide column">grid left aligned</div>
+</div>
+<div class="grid right aligned with-bg-colors">
+		<div class="two wide column">grid right aligned</div>
+		<div class="two wide column">grid right aligned</div>
+		<div class="two wide column">grid right aligned</div>
+</div>
+<div class="grid center aligned with-bg-colors">
+		<div class="two wide column">grid center aligned</div>
+		<div class="two wide column">grid center aligned</div>
+		<div class="two wide column">grid center aligned</div>
+</div>
+<div class="grid edge aligned with-bg-colors">
+		<div class="two wide column">grid edge aligned</div>
+		<div class="two wide column">grid edge aligned</div>
+		<div class="two wide column">grid edge aligned</div>
+</div>
+<div class="grid around aligned with-bg-colors">
+		<div class="two wide column">grid around aligned</div>
+		<div class="two wide column">grid around aligned</div>
+		<div class="two wide column">grid around aligned</div>
+</div>
+```
+
+Grid Direction
+```grid-direction-types.html
+<div class="grid row direction with-bg-colors">
+		<div class="two wide column">grid row direction 1</div>
+		<div class="two wide column">grid row direction 2</div>
+		<div class="two wide column">grid row direction 3</div>
+</div>
+<div class="grid column direction with-bg-colors">
+		<div class="two wide column">grid column direction 1</div>
+		<div class="two wide column">grid column direction 2</div>
+		<div class="two wide column">grid column direction 3</div>
+</div>
+<div class="grid row direction reversed with-bg-colors">
+		<div class="two wide column">grid row direction reversed 1</div>
+		<div class="two wide column">grid row direction reversed 2</div>
+		<div class="two wide column">grid row direction reversed 3</div>
+</div>
+<div class="grid column direction reversed with-bg-colors">
+		<div class="two wide column">grid column direction reversed 1</div>
+		<div class="two wide column">grid column direction reversed 2</div>
+		<div class="two wide column">grid column direction reversed 3</div>
+</div>
+```
+
+Column Alignment
+```column-align-types.html
+<div class="four column grid col-align-demo with-bg-colors with-bg-colors">
+		<div class="column top aligned">column top aligned</div>
+		<div class="column middle aligned">column middle aligned</div>
+		<div class="column bottom aligned">column bottom aligned</div>
+		<div class="column stretched">column stretched</div>
+</div>
+```
+
+Content Alignment
+```content-align-types.html
+<div class="three column grid left aligned with-bg-colors">
+		<div class="column">grid all content left aligned</div>
+		<div class="column">grid all content left aligned</div>
+		<div class="column">grid all content left aligned</div>
+</div>
+<div class="three column grid center aligned with-bg-colors">
+		<div class="column">grid all content center aligned</div>
+		<div class="column">grid all content center aligned</div>
+		<div class="column">grid all content center aligned</div>
+</div>
+<div class="three column grid right aligned with-bg-colors">
+		<div class="column">grid all content right aligned</div>
+		<div class="column">grid all content right aligned</div>
+		<div class="column">grid all content right aligned</div>
+</div>
+<hr>
+<div class="three column grid with-bg-colors">
+		<div class="column left aligned">column content left aligned</div>
+		<div class="column center aligned">column content center aligned</div>
+		<div class="column right aligned">column content right aligned</div>
+</div>
+```
+*/
+$grid-total-columns: length($wides);
+$one-wide: math.div(100%, $grid-total-columns);
+
+.container {
+	max-width: 100%;
+	width: $container-width;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: $padding;
+
+	@include tablet {
+		width: 90%;
+	}
+
+	@include mobile {
+		width: 100%;
+		padding: math.div($padding, 2);
+	}
+
+	&.fluid {
+		width: 100%;
+	}
+
+	&.text {
+		max-width: $text-container-width;
+
+		@include desktop {
+			width: auto;
+		}
+
+		@include tablet {
+			width: auto;
+		}
+
+		@include mobile {
+			width: auto;
+			padding: math.div($padding, 2);
+		}
+	}
+
+	>.grid {
+		margin: -(math.div($padding, 2));
+	}
+}
+
+@mixin calculate-offset($wide) {
+	margin-left: $wide * $one-wide;
+}
+
+@mixin grid($mobile: auto, $tablet: auto, $desktop: auto, $centered: false, $vertical-centered: false, $stackable: false, $mobile-visible: true, $tablet-visible: true, $desktop-visible: true) {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+
+	@if $centered==true {
+		justify-content: center;
+	}
+
+	@if $vertical-centered==true {
+		align-items: center;
+	}
+
+	@if $mobile !=auto {
+		@if $stackable==false {
+			&>.column {
+				flex: 0 (math.div($grid-total-columns, $mobile)) * $one-wide;
+				max-width: (math.div($grid-total-columns, $mobile)) * $one-wide;
+			}
+		}
+
+		@else {
+			&>.column {
+				flex: 0 100%;
+			}
+		}
+	}
+
+	@if $mobile-visible==false {
+		display: none;
+	}
+
+	@if $tablet !=auto {
+		@media all and (min-width: $min-tablet-width) {
+			&>.column {
+				flex: 0 (math.div($grid-total-columns, $tablet)) * $one-wide;
+				max-width: (math.div($grid-total-columns, $tablet)) * $one-wide;
+			}
+
+			@if $tablet-visible==false {
+				display: none;
+			}
+		}
+	}
+
+	@if $desktop !=auto {
+		@media all and (min-width: $min-desktop-width) {
+			&>.column {
+				flex: 0 (math.div($grid-total-columns, $desktop)) * $one-wide;
+				max-width: (math.div($grid-total-columns, $desktop)) * $one-wide;
+			}
+
+			@if $desktop-visible==false {
+				display: none;
+			}
+		}
+	}
+}
+
+@mixin column($mobile: auto, $tablet: auto, $desktop: auto, $mobile-visible: true, $tablet-visible: true, $desktop-visible: true, $offset: 0, $mobile-offset: 0, $tablet-offset: 0, $desktop-offset: 0) {
+	box-sizing: border-box;
+	max-width: 100%;
+
+	@if $mobile==auto {
+		flex: 1;
+	}
+
+	@else if $mobile==fill {
+		flex: 1;
+	}
+
+	@else {
+		flex: 0 $mobile * $one-wide;
+		max-width: $mobile * $one-wide;
+	}
+
+	@if $offset !=0 {
+		@include calculate-offset($offset);
+	}
+
+	@if $mobile-visible==false {
+		display: none;
+	}
+
+	@if $tablet !=auto {
+		@media all and (min-width: $min-tablet-width) {
+			@if $tablet==fill {
+				flex: 1;
+			}
+
+			@else {
+				flex: 0 $tablet * $one-wide;
+				max-width: $tablet * $one-wide;
+			}
+
+			@if $tablet-offset==0 {
+				margin-left: 0;
+			}
+
+			@else {
+				@include calculate-offset($offset);
+			}
+
+			@if $tablet-visible==false {
+				display: none;
+			}
+		}
+	}
+
+	@if $desktop !=auto {
+		@media all and (min-width: $min-desktop-width) {
+			@if $desktop==fill {
+				flex: 1;
+			}
+
+			@else {
+				flex: 0 $desktop * $one-wide;
+				max-width: $desktop * $one-wide;
+			}
+
+			@if $desktop-offset==0 {
+				margin-left: 0;
+			}
+
+			@else {
+				@include calculate-offset($offset);
+			}
+
+			@if $desktop-visible==false {
+				display: none;
+			}
+		}
+	}
+}
+
+@mixin container($fluid: false, $mobile-visible: true, $tablet-visible: true, $desktop-visible: true) {
+	max-width: 100%;
+	width: 90%;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	@if fluid==true {
+		width: 100%;
+	}
+
+	@if $mobile-visible==false {
+		display: none;
+	}
+
+	@if $tablet-visible==false {
+		@media all and (min-width: $min-tablet-width) {
+			display: none;
+		}
+	}
+
+	@if $desktop-visible==false {
+		@media all and (min-width: $min-desktop-width) {
+			display: none;
+		}
+	}
+}
+
+@function wideWidth($number) {
+	@return ($number * $one-wide);
+}
+
+@function wideSettings($number) {
+	@return 0 wideWidth($number);
+}
+
+@function wideSettingsML($number) {
+	@return wideWidth($number);
+}
+
+@mixin get-wide-settings($wide) {
+	@for $i from 1 through length($wides) {
+		@if $wide==nth($wides, $i) {
+			flex: wideSettings($i);
+			max-width: wideWidth($i);
+		}
+	}
+}
+
+@mixin get-offset-value($wide) {
+	@for $i from 1 through length($wides) {
+		@if $wide==nth($wides, $i) {
+			margin-left: wideSettingsML($i);
+		}
+	}
+}
+
+@mixin generate-grid {
+
+	@each $wide in $wides {
+		[class*="#{$wide} wide column"] {
+			@include get-wide-settings($wide);
+		}
+
+		[class*="offset #{$wide} column"] {
+			@include get-offset-value($wide);
+		}
+	}
+
+	@media all and (min-width: 1px) {
+		@each $wide in $wides {
+			[class*="#{$wide} wide on mobile"].column {
+				@include get-wide-settings($wide);
+			}
+
+			[class*="offset #{$wide} on mobile"].column {
+				@include get-offset-value($wide);
+			}
+		}
+	}
+
+	@media all and (min-width: $min-tablet-width) {
+		@each $wide in $wides {
+			[class*="#{$wide} wide on tablet"].column {
+				@include get-wide-settings($wide);
+			}
+
+			[class*="offset #{$wide} on tablet"].column {
+				@include get-offset-value($wide);
+			}
+		}
+	}
+
+	@media all and (min-width: $min-desktop-width) {
+		@each $wide in $wides {
+			[class*="#{$wide} wide on desktop"].column {
+				@include get-wide-settings($wide);
+			}
+
+			[class*="offset #{$wide} on desktop"].column {
+				@include get-offset-value($wide);
+			}
+		}
+	}
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+
+	margin-top: - math.div($padding, 2);
+	margin-bottom: - math.div($padding, 2);
+	margin-left: - math.div($padding, 2);
+	margin-right: - math.div($padding, 2);
+
+	//& > * {
+	//  padding: math.div($padding, 2);
+	//}
+
+	&:not(:last-child) {
+		margin-bottom: math.div($padding, 2);
+		margin-left: - math.div($padding, 2);
+		margin-right: - math.div($padding, 2);
+	}
+
+	&.center.aligned {
+		text-align: center;
+	}
+
+	&.left.aligned {
+		text-align: left;
+	}
+
+	&.right.aligned {
+		text-align: right;
+	}
+
+	.column {
+		box-sizing: border-box;
+		padding: math.div($padding, 2);
+		max-width: 100%;
+
+		&.center.aligned {
+			text-align: center;
+		}
+
+		&.left.aligned {
+			text-align: left;
+		}
+
+		&.right.aligned {
+			text-align: right;
+		}
+	}
+
+	&:not(.column) .column:not(.wide) {
+		flex: 1;
+	}
+
+	/* .column > .grid,
+	.column .grid .column > .grid {
+		margin: -(math.div($padding, 2));
+	} */
+
+	.fill.column {
+		flex: 1;
+	}
+
+	@include generate-grid();
+
+	@function flexWidth($number) {
+		@return 0 math.div(12, $number) * $one-wide;
+	}
+
+	$count: length($wides);
+
+	@each $wide in $wides {
+		&[class*="#{$wide} column"] .column {
+			flex: flexWidth($count);
+		}
+
+		&[class*="#{$wide} column"] {
+			@for $i from 1 through length($wides) {
+				@if $wide==nth($wides, $i) {
+					@include grid($i);
+				}
+			}
+		}
+
+		$count: $count - 1;
+	}
+
+	@media all and (min-width: $min-tablet-width) and (max-width: $min-desktop-width - 1px) {
+		[class*="fill on tablet"].column {
+			flex: 1;
+		}
+
+		[class*="mobile only"].column,
+		[class*="desktop only"].column,
+		[class*="mobile and desktop only"].column {
+			display: none;
+		}
+
+		[class*="tablet only"].column {
+			display: block;
+		}
+
+		[class*="mobile and tablet only"].column,
+		[class*="tablet and desktop only"].column {
+			display: block;
+		}
+
+		&.reversed.stackable {
+			&.row {
+				@include flex-direction(row);
+
+				&.reversed {
+					@include flex-direction(row-reverse);
+				}
+			}
+
+			&.column {
+				@include flex-direction(column);
+
+				&.reversed {
+					@include flex-direction(column-reverse);
+				}
+			}
+		}
+	}
+
+	@media all and (min-width: $min-tablet-width) {
+		[class*="offset zero on tablet"].column {
+			margin-left: 0;
+		}
+	}
+
+	@media all and (min-width: $min-desktop-width) {
+
+		[class*="fill on desktop"].column {
+			flex: 1;
+		}
+
+		[class*="mobile only"].column,
+		[class*="tablet only"].column,
+		[class*="mobile and tablet only"].column {
+			display: none;
+		}
+
+		[class*="desktop only"].column {
+			display: block;
+		}
+
+		[class*="mobile and desktop only"].column,
+		[class*="tablet and desktop only"].column {
+			display: block;
+		}
+
+		[class*="offset zero on desktop"].column {
+			margin-left: 0;
+		}
+	}
+
+	@media all and (max-width: $min-desktop-width - 1px) {
+
+		&.stackable .column {
+			flex: 0 100%;
+		}
+
+		&.reversed.stackable {
+			&.row {
+				@include flex-direction(row);
+
+				&.reversed {
+					@include flex-direction(row-reverse);
+				}
+			}
+
+			&.column {
+				@include flex-direction(column);
+
+				&.reversed {
+					@include flex-direction(column-reverse);
+				}
+			}
+		}
+
+		[class*="fill on mobile"].column {
+			flex: 1;
+		}
+
+		[class*="desktop only"].column,
+		[class*="tablet only"].column,
+		[class*="tablet and desktop only"].column {
+			display: none;
+		}
+
+		[class*="mobile and tablet only"].column,
+		[class*="mobile and desktop only"].column {
+			display: block;
+		}
+	}
+
+}
+
+//
+// align
+// ---
+
+@mixin align-items($align: stretch) {
+	@include ms-align-items($align);
+	align-items: $align;
+}
+
+@mixin align-self($align: stretch) {
+	@include ms-align-self($align);
+	align-self: $align;
+}
+
+@mixin align-content($align: stretch) {
+	@include ms-align-content($align);
+	align-content: $align;
+}
+
+//
+// ie10 syntax for align
+// ---
+
+@mixin ms-align-items($align) {
+	@if $align=='flex-start' {
+		-ms-flex-align: start;
+	}
+
+	@else if $align=='flex-end' {
+		-ms-flex-align: end;
+	}
+
+	@else {
+		-ms-flex-align: $align;
+	}
+}
+
+@mixin ms-align-self($align) {
+	@if $align=='flex-start' {
+		-ms-flex-item-align: start;
+	}
+
+	@else if $align=='flex-end' {
+		-ms-flex-item-align: end;
+	}
+
+	@else {
+		-ms-flex-item-align: $align;
+	}
+}
+
+@mixin ms-align-content($align) {
+	@if $align=='flex-start' {
+		-ms-flex-line-pack: start;
+	}
+
+	@else if $align=='flex-end' {
+		-ms-flex-line-pack: end;
+	}
+
+	@else if $align=='space-between' {
+		-ms-flex-line-pack: justify;
+	}
+
+	@else if $align=='space-around' {
+		-ms-flex-line-pack: distribute;
+	}
+
+	@else {
+		-ms-flex-line-pack: $align;
+	}
+}
+
+//
+// justify-content
+//
+// Uses "text-align" for the fallback inline-block grid
+// "text-align" is globally supported and works on all rows except the last
+// "text-align-last", where supported, handles the last line (and, happily, grids with only one row)
+// ---
+
+@mixin justify-content-start() {
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+@mixin justify-content-end() {
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+@mixin justify-content-center() {
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@mixin justify-content-space-between() {
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+@mixin justify-content-space-around() {
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+///////////////////////////////////////////////
+// --------------------------------------------------
+// flex-direction
+// --------------------------------------------------
+.direction {
+	&.row {
+		@include flex-direction(row);
+
+		&.reversed {
+			@include flex-direction(row-reverse);
+		}
+	}
+
+	&.column {
+		@include flex-direction(column);
+
+		&.reversed {
+			@include flex-direction(column-reverse);
+		}
+	}
+}
+
+// --------------------------------------------------
+// align items (cross axis) - GRID ONLY
+// --------------------------------------------------
+.aligned {
+	&.top {
+		@include align-items(flex-start);
+	}
+
+	&.bottom {
+		@include align-items(flex-end);
+	}
+
+	&.middle {
+		@include align-items(center);
+	}
+
+	&.baseline {
+		@include align-items(baseline);
+	}
+
+	&.left {
+		@include justify-content-start();
+	}
+
+	&.right {
+		@include justify-content-end();
+	}
+
+	&.center {
+		@include justify-content-center();
+	}
+
+	&.edge {
+		@include justify-content-space-between();
+	}
+
+	&.around {
+		@include justify-content-space-around();
+	}
+}
+
+// --------------------------------------------------
+// align content (cross axis)
+// --------------------------------------------------
+
+.align-content-start {
+	@include align-content(flex-start);
+}
+
+.align-content-end {
+	@include align-content(flex-end);
+
+	// fallback to legacy vertical-align
+	[class*="column"] {
+		vertical-align: bottom;
+	}
+}
+
+.align-content-center {
+	@include align-content(center);
+}
+
+.align-content-space-between {
+	@include align-content(space-between);
+}
+
+.align-content-space-around {
+	@include align-content(space-around);
+}
+
+// --------------------------------------------------
+// align-self COLUMN
+// --------------------------------------------------
+
+.column {
+	&.stretched {
+		@include align-self(stretch);
+	}
+
+	&.aligned {
+		&.top {
+			@include align-self(flex-start);
+
+		}
+
+		&.bottom {
+			@include align-self(flex-end);
+			vertical-align: bottom;
+		}
+
+		&.middle {
+			@include align-self(center);
+			vertical-align: middle;
+		}
+
+		&.baseline {
+			@include align-self(baseline);
+			vertical-align: baseline;
+		}
+	}
+}
+
+.column.collection {
+	&:not(:first-child) {
+		margin-top: $padding;
+	}
+}

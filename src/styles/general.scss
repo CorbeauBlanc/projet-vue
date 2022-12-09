@@ -1,0 +1,178 @@
+// Main structure
+
+/*****************************************************************/
+#heading,
+.ui.popup {
+	display: none;
+}
+
+/*****************************************************************/
+
+.badge {
+	display: inline-block;
+	background: $default-color;
+	color: good-contrast($default-color);
+	font-size: .85rem;
+	padding: math.div($padding, 4) math.div($padding, 2);
+	border-radius: $rounded;
+	line-height: normal;
+	text-align: center;
+	vertical-align: baseline;
+	margin: 0 math.div($padding, 6);
+	white-space: nowrap;
+
+	&.basic {
+		background: none;
+		border: $border-width solid $default-color;
+		color: $default-color;
+	}
+
+	&.rounded {
+		border-radius: $rounded;
+	}
+
+	@each $swatch,
+	$color in $swatch {
+		&.#{$swatch} {
+			background: $color;
+			color: good-contrast($color);
+		}
+
+		&.basic {
+			&.#{$swatch} {
+				background: none;
+				border: $border-width solid $color;
+				color: $color;
+			}
+		}
+	}
+
+	&.fluid {
+		width: 100%;
+		text-align: center;
+	}
+
+	&.bold {
+		font-weight: 700;
+	}
+
+	&.small {
+		font-size: .7rem;
+		padding: math.div($padding, 8) math.div($padding, 4);
+	}
+
+	&.big {
+		font-size: 1.1rem;
+	}
+
+	&.testers.quota {
+		margin: 4px 0 0 0;
+		text-align: left;
+
+		&:before {
+			@include triangle($green, .3rem, 'top');
+			left: 25%;
+		}
+	}
+
+	&.empty {
+		padding: 0;
+		width: math.div($padding, 2);
+		height: math.div($padding, 2);
+		vertical-align: middle;
+	}
+
+	&.notification {
+		transform: translateY(-90%);
+		border: solid $white 3px;
+		box-shadow: $base-shadow;
+		font-size: 0.65rem;
+	}
+}
+
+.shortcut {
+	font-size: 1.2rem;
+	font-family: monospace;
+	background: #eae7e7;
+	padding: .2rem .5rem;
+	border-radius: .2rem;
+	text-shadow: 1px 1px 0 white;
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.17), 0 3px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.id,
+.counter {
+	color: scale-color($text-muted, $lightness: 22%);
+}
+
+.id {
+	margin-left: .5em;
+	margin-right: .5em;
+
+	&:before {
+		content: "#";
+	}
+}
+
+.counter {
+	&:before {
+		margin-left: math.div($padding, 4);
+		margin-right: math.div($padding, 8);
+		content: "(";
+	}
+
+	&:after {
+		margin-left: math.div($padding, 8);
+		content: ")";
+	}
+
+	&.alt {
+		&:before {
+			content: "-";
+		}
+
+		&:after {
+			content: "";
+			margin-left: 0;
+		}
+	}
+}
+
+.footer:not(.segment) {
+	position: sticky;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-around;
+	text-align: center;
+	margin: auto;
+	padding: $padding;
+	background: $light-grey;
+	border-top: 1px solid $border-color;
+	@include z-index(topHeading);
+}
+
+.view {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+
+	#view-heading {
+		@include z-index(topHeading);
+	}
+
+	#view-content {
+		position: relative;
+		padding-bottom: $padding * 4;
+		flex-grow: 1;
+
+		&.with-footer {
+			padding-bottom: 0;
+
+			>.footer {
+				margin-top: $padding * 4;
+			}
+		}
+	}
+}

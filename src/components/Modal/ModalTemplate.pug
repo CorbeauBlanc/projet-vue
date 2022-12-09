@@ -1,0 +1,14 @@
+.modal-container(:id="modalId" @click="blurClose" v-show="!isHidden")
+	.modal(@click.stop)
+		.header(v-if="!noheader")
+			i.icon(:class="[ headerIcon ]" v-if="headerIcon")
+			block header
+			icon(
+				close
+				v-if="closeIcon === true || closeIcon === undefined"
+				@click="keepalive ? hide() : close()"
+				)
+		.content
+			block content
+		.footer
+			block footer

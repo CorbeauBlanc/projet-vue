@@ -1,0 +1,558 @@
+/*
+---
+name: Flags
+category: Components
+---
+
+Use `<div class="flag country-fr"></div>` - `fr` is the country unicode (Can also be used with a `span`)
+```basic-types.html
+<div class="flag country-fr"></div>
+```
+
+```all-types.html hidden
+<div class="flag country-ad" title="ad" id="ad"></div>
+<div class="flag country-ae" title="ae" id="ae"></div>
+<div class="flag country-af" title="af" id="af"></div>
+<div class="flag country-ag" title="ag" id="ag"></div>
+<div class="flag country-ai" title="ai" id="ai"></div>
+<div class="flag country-al" title="al" id="al"></div>
+<div class="flag country-am" title="am" id="am"></div>
+<div class="flag country-ao" title="ao" id="ao"></div>
+<div class="flag country-aq" title="aq" id="aq"></div>
+<div class="flag country-ar" title="ar" id="ar"></div>
+<div class="flag country-as" title="as" id="as"></div>
+<div class="flag country-at" title="at" id="at"></div>
+<div class="flag country-au" title="au" id="au"></div>
+<div class="flag country-aw" title="aw" id="aw"></div>
+<div class="flag country-ax" title="ax" id="ax"></div>
+<div class="flag country-az" title="az" id="az"></div>
+<div class="flag country-ba" title="ba" id="ba"></div>
+<div class="flag country-bb" title="bb" id="bb"></div>
+<div class="flag country-bd" title="bd" id="bd"></div>
+<div class="flag country-be" title="be" id="be"></div>
+<div class="flag country-bf" title="bf" id="bf"></div>
+<div class="flag country-bg" title="bg" id="bg"></div>
+<div class="flag country-bh" title="bh" id="bh"></div>
+<div class="flag country-bi" title="bi" id="bi"></div>
+<div class="flag country-bj" title="bj" id="bj"></div>
+<div class="flag country-bl" title="bl" id="bl"></div>
+<div class="flag country-bm" title="bm" id="bm"></div>
+<div class="flag country-bn" title="bn" id="bn"></div>
+<div class="flag country-bo" title="bo" id="bo"></div>
+<div class="flag country-bq" title="bq" id="bq"></div>
+<div class="flag country-br" title="br" id="br"></div>
+<div class="flag country-bs" title="bs" id="bs"></div>
+<div class="flag country-bt" title="bt" id="bt"></div>
+<div class="flag country-bv" title="bv" id="bv"></div>
+<div class="flag country-bw" title="bw" id="bw"></div>
+<div class="flag country-by" title="by" id="by"></div>
+<div class="flag country-bz" title="bz" id="bz"></div>
+<div class="flag country-ca" title="ca" id="ca"></div>
+<div class="flag country-cc" title="cc" id="cc"></div>
+<div class="flag country-cd" title="cd" id="cd"></div>
+<div class="flag country-cf" title="cf" id="cf"></div>
+<div class="flag country-cg" title="cg" id="cg"></div>
+<div class="flag country-ch" title="ch" id="ch"></div>
+<div class="flag country-ci" title="ci" id="ci"></div>
+<div class="flag country-ck" title="ck" id="ck"></div>
+<div class="flag country-cl" title="cl" id="cl"></div>
+<div class="flag country-cm" title="cm" id="cm"></div>
+<div class="flag country-cn" title="cn" id="cn"></div>
+<div class="flag country-co" title="co" id="co"></div>
+<div class="flag country-cr" title="cr" id="cr"></div>
+<div class="flag country-cu" title="cu" id="cu"></div>
+<div class="flag country-cv" title="cv" id="cv"></div>
+<div class="flag country-cw" title="cw" id="cw"></div>
+<div class="flag country-cx" title="cx" id="cx"></div>
+<div class="flag country-cy" title="cy" id="cy"></div>
+<div class="flag country-cz" title="cz" id="cz"></div>
+<div class="flag country-de" title="de" id="de"></div>
+<div class="flag country-dj" title="dj" id="dj"></div>
+<div class="flag country-dk" title="dk" id="dk"></div>
+<div class="flag country-dm" title="dm" id="dm"></div>
+<div class="flag country-do" title="do" id="do"></div>
+<div class="flag country-dz" title="dz" id="dz"></div>
+<div class="flag country-ec" title="ec" id="ec"></div>
+<div class="flag country-ee" title="ee" id="ee"></div>
+<div class="flag country-eg" title="eg" id="eg"></div>
+<div class="flag country-eh" title="eh" id="eh"></div>
+<div class="flag country-er" title="er" id="er"></div>
+<div class="flag country-es" title="es" id="es"></div>
+<div class="flag country-et" title="et" id="et"></div>
+<div class="flag country-fi" title="fi" id="fi"></div>
+<div class="flag country-fj" title="fj" id="fj"></div>
+<div class="flag country-fk" title="fk" id="fk"></div>
+<div class="flag country-fm" title="fm" id="fm"></div>
+<div class="flag country-fo" title="fo" id="fo"></div>
+<div class="flag country-fr" title="fr" id="fr"></div>
+<div class="flag country-ga" title="ga" id="ga"></div>
+<div class="flag country-gb" title="gb" id="gb"></div>
+<div class="flag country-gd" title="gd" id="gd"></div>
+<div class="flag country-ge" title="ge" id="ge"></div>
+<div class="flag country-gf" title="gf" id="gf"></div>
+<div class="flag country-gg" title="gg" id="gg"></div>
+<div class="flag country-gh" title="gh" id="gh"></div>
+<div class="flag country-gi" title="gi" id="gi"></div>
+<div class="flag country-gl" title="gl" id="gl"></div>
+<div class="flag country-gm" title="gm" id="gm"></div>
+<div class="flag country-gn" title="gn" id="gn"></div>
+<div class="flag country-gp" title="gp" id="gp"></div>
+<div class="flag country-gq" title="gq" id="gq"></div>
+<div class="flag country-gr" title="gr" id="gr"></div>
+<div class="flag country-gs" title="gs" id="gs"></div>
+<div class="flag country-gt" title="gt" id="gt"></div>
+<div class="flag country-gu" title="gu" id="gu"></div>
+<div class="flag country-gw" title="gw" id="gw"></div>
+<div class="flag country-gy" title="gy" id="gy"></div>
+<div class="flag country-hk" title="hk" id="hk"></div>
+<div class="flag country-hm" title="hm" id="hm"></div>
+<div class="flag country-hn" title="hn" id="hn"></div>
+<div class="flag country-hr" title="hr" id="hr"></div>
+<div class="flag country-ht" title="ht" id="ht"></div>
+<div class="flag country-hu" title="hu" id="hu"></div>
+<div class="flag country-id" title="id" id="id"></div>
+<div class="flag country-ie" title="ie" id="ie"></div>
+<div class="flag country-il" title="il" id="il"></div>
+<div class="flag country-im" title="im" id="im"></div>
+<div class="flag country-in" title="in" id="in"></div>
+<div class="flag country-io" title="io" id="io"></div>
+<div class="flag country-iq" title="iq" id="iq"></div>
+<div class="flag country-ir" title="ir" id="ir"></div>
+<div class="flag country-is" title="is" id="is"></div>
+<div class="flag country-it" title="it" id="it"></div>
+<div class="flag country-je" title="je" id="je"></div>
+<div class="flag country-jm" title="jm" id="jm"></div>
+<div class="flag country-jo" title="jo" id="jo"></div>
+<div class="flag country-jp" title="jp" id="jp"></div>
+<div class="flag country-ke" title="ke" id="ke"></div>
+<div class="flag country-kg" title="kg" id="kg"></div>
+<div class="flag country-kh" title="kh" id="kh"></div>
+<div class="flag country-ki" title="ki" id="ki"></div>
+<div class="flag country-km" title="km" id="km"></div>
+<div class="flag country-kn" title="kn" id="kn"></div>
+<div class="flag country-kp" title="kp" id="kp"></div>
+<div class="flag country-kr" title="kr" id="kr"></div>
+<div class="flag country-kw" title="kw" id="kw"></div>
+<div class="flag country-ky" title="ky" id="ky"></div>
+<div class="flag country-kz" title="kz" id="kz"></div>
+<div class="flag country-la" title="la" id="la"></div>
+<div class="flag country-lb" title="lb" id="lb"></div>
+<div class="flag country-lc" title="lc" id="lc"></div>
+<div class="flag country-li" title="li" id="li"></div>
+<div class="flag country-lk" title="lk" id="lk"></div>
+<div class="flag country-lr" title="lr" id="lr"></div>
+<div class="flag country-ls" title="ls" id="ls"></div>
+<div class="flag country-lt" title="lt" id="lt"></div>
+<div class="flag country-lu" title="lu" id="lu"></div>
+<div class="flag country-lv" title="lv" id="lv"></div>
+<div class="flag country-ly" title="ly" id="ly"></div>
+<div class="flag country-ma" title="ma" id="ma"></div>
+<div class="flag country-mc" title="mc" id="mc"></div>
+<div class="flag country-md" title="md" id="md"></div>
+<div class="flag country-me" title="me" id="me"></div>
+<div class="flag country-mf" title="mf" id="mf"></div>
+<div class="flag country-mg" title="mg" id="mg"></div>
+<div class="flag country-mh" title="mh" id="mh"></div>
+<div class="flag country-mk" title="mk" id="mk"></div>
+<div class="flag country-ml" title="ml" id="ml"></div>
+<div class="flag country-mm" title="mm" id="mm"></div>
+<div class="flag country-mn" title="mn" id="mn"></div>
+<div class="flag country-mo" title="mo" id="mo"></div>
+<div class="flag country-mp" title="mp" id="mp"></div>
+<div class="flag country-mq" title="mq" id="mq"></div>
+<div class="flag country-mr" title="mr" id="mr"></div>
+<div class="flag country-ms" title="ms" id="ms"></div>
+<div class="flag country-mt" title="mt" id="mt"></div>
+<div class="flag country-mu" title="mu" id="mu"></div>
+<div class="flag country-mv" title="mv" id="mv"></div>
+<div class="flag country-mw" title="mw" id="mw"></div>
+<div class="flag country-mx" title="mx" id="mx"></div>
+<div class="flag country-my" title="my" id="my"></div>
+<div class="flag country-mz" title="mz" id="mz"></div>
+<div class="flag country-na" title="na" id="na"></div>
+<div class="flag country-nc" title="nc" id="nc"></div>
+<div class="flag country-ne" title="ne" id="ne"></div>
+<div class="flag country-nf" title="nf" id="nf"></div>
+<div class="flag country-ng" title="ng" id="ng"></div>
+<div class="flag country-ni" title="ni" id="ni"></div>
+<div class="flag country-nl" title="nl" id="nl"></div>
+<div class="flag country-no" title="no" id="no"></div>
+<div class="flag country-np" title="np" id="np"></div>
+<div class="flag country-nr" title="nr" id="nr"></div>
+<div class="flag country-nu" title="nu" id="nu"></div>
+<div class="flag country-nz" title="nz" id="nz"></div>
+<div class="flag country-om" title="om" id="om"></div>
+<div class="flag country-pa" title="pa" id="pa"></div>
+<div class="flag country-pe" title="pe" id="pe"></div>
+<div class="flag country-pf" title="pf" id="pf"></div>
+<div class="flag country-pg" title="pg" id="pg"></div>
+<div class="flag country-ph" title="ph" id="ph"></div>
+<div class="flag country-pk" title="pk" id="pk"></div>
+<div class="flag country-pl" title="pl" id="pl"></div>
+<div class="flag country-pm" title="pm" id="pm"></div>
+<div class="flag country-pn" title="pn" id="pn"></div>
+<div class="flag country-pr" title="pr" id="pr"></div>
+<div class="flag country-ps" title="ps" id="ps"></div>
+<div class="flag country-pt" title="pt" id="pt"></div>
+<div class="flag country-pw" title="pw" id="pw"></div>
+<div class="flag country-py" title="py" id="py"></div>
+<div class="flag country-qa" title="qa" id="qa"></div>
+<div class="flag country-re" title="re" id="re"></div>
+<div class="flag country-ro" title="ro" id="ro"></div>
+<div class="flag country-rs" title="rs" id="rs"></div>
+<div class="flag country-ru" title="ru" id="ru"></div>
+<div class="flag country-rw" title="rw" id="rw"></div>
+<div class="flag country-sa" title="sa" id="sa"></div>
+<div class="flag country-sb" title="sb" id="sb"></div>
+<div class="flag country-sc" title="sc" id="sc"></div>
+<div class="flag country-sd" title="sd" id="sd"></div>
+<div class="flag country-se" title="se" id="se"></div>
+<div class="flag country-sg" title="sg" id="sg"></div>
+<div class="flag country-sh" title="sh" id="sh"></div>
+<div class="flag country-si" title="si" id="si"></div>
+<div class="flag country-sj" title="sj" id="sj"></div>
+<div class="flag country-sk" title="sk" id="sk"></div>
+<div class="flag country-sl" title="sl" id="sl"></div>
+<div class="flag country-sm" title="sm" id="sm"></div>
+<div class="flag country-sn" title="sn" id="sn"></div>
+<div class="flag country-so" title="so" id="so"></div>
+<div class="flag country-sr" title="sr" id="sr"></div>
+<div class="flag country-ss" title="ss" id="ss"></div>
+<div class="flag country-st" title="st" id="st"></div>
+<div class="flag country-sv" title="sv" id="sv"></div>
+<div class="flag country-sx" title="sx" id="sx"></div>
+<div class="flag country-sy" title="sy" id="sy"></div>
+<div class="flag country-sz" title="sz" id="sz"></div>
+<div class="flag country-tc" title="tc" id="tc"></div>
+<div class="flag country-td" title="td" id="td"></div>
+<div class="flag country-tf" title="tf" id="tf"></div>
+<div class="flag country-tg" title="tg" id="tg"></div>
+<div class="flag country-th" title="th" id="th"></div>
+<div class="flag country-tj" title="tj" id="tj"></div>
+<div class="flag country-tk" title="tk" id="tk"></div>
+<div class="flag country-tl" title="tl" id="tl"></div>
+<div class="flag country-tm" title="tm" id="tm"></div>
+<div class="flag country-tn" title="tn" id="tn"></div>
+<div class="flag country-to" title="to" id="to"></div>
+<div class="flag country-tr" title="tr" id="tr"></div>
+<div class="flag country-tt" title="tt" id="tt"></div>
+<div class="flag country-tv" title="tv" id="tv"></div>
+<div class="flag country-tw" title="tw" id="tw"></div>
+<div class="flag country-tz" title="tz" id="tz"></div>
+<div class="flag country-ua" title="ua" id="ua"></div>
+<div class="flag country-ug" title="ug" id="ug"></div>
+<div class="flag country-um" title="um" id="um"></div>
+<div class="flag country-us" title="us" id="us"></div>
+<div class="flag country-uy" title="uy" id="uy"></div>
+<div class="flag country-uz" title="uz" id="uz"></div>
+<div class="flag country-va" title="va" id="va"></div>
+<div class="flag country-vc" title="vc" id="vc"></div>
+<div class="flag country-ve" title="ve" id="ve"></div>
+<div class="flag country-vg" title="vg" id="vg"></div>
+<div class="flag country-vi" title="vi" id="vi"></div>
+<div class="flag country-vn" title="vn" id="vn"></div>
+<div class="flag country-vu" title="vu" id="vu"></div>
+<div class="flag country-wf" title="wf" id="wf"></div>
+<div class="flag country-ws" title="ws" id="ws"></div>
+<div class="flag country-ye" title="ye" id="ye"></div>
+<div class="flag country-yt" title="yt" id="yt"></div>
+<div class="flag country-za" title="za" id="za"></div>
+<div class="flag country-zm" title="zm" id="zm"></div>
+<div class="flag country-zw" title="zw" id="zw"></div>
+```
+*/
+
+$flag-icon-path: 'assets/flags' !default;
+
+.flag:not(.icon) {
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: math.div(4, 3) * 1em;
+	line-height: 1em;
+	border-radius: $radius;
+	background-color: $white;
+	box-shadow: 0 0 1px #000 inset;
+
+	&:before {
+		content: '\00a0';
+	}
+
+	&:not(:only-child) {
+		margin-right: .5em;
+	}
+}
+
+@mixin flag-icon($country) {
+	.country-#{$country} {
+		background-image: url(#{$flag-icon-path}/#{$country}.svg);
+	}
+}
+
+@if variable-exists(include) {
+	@each $country in $include {
+		@include flag-icon($country);
+	}
+}
+
+@else {
+	@include flag-icon(ad);
+	@include flag-icon(ae);
+	@include flag-icon(af);
+	@include flag-icon(ag);
+	@include flag-icon(ai);
+	@include flag-icon(al);
+	@include flag-icon(am);
+	@include flag-icon(ao);
+	@include flag-icon(aq);
+	@include flag-icon(ar);
+	@include flag-icon(as);
+	@include flag-icon(at);
+	@include flag-icon(au);
+	@include flag-icon(aw);
+	@include flag-icon(ax);
+	@include flag-icon(az);
+	@include flag-icon(ba);
+	@include flag-icon(bb);
+	@include flag-icon(bd);
+	@include flag-icon(be);
+	@include flag-icon(bf);
+	@include flag-icon(bg);
+	@include flag-icon(bh);
+	@include flag-icon(bi);
+	@include flag-icon(bj);
+	@include flag-icon(bl);
+	@include flag-icon(bm);
+	@include flag-icon(bn);
+	@include flag-icon(bo);
+	@include flag-icon(bq);
+	@include flag-icon(br);
+	@include flag-icon(bs);
+	@include flag-icon(bt);
+	@include flag-icon(bv);
+	@include flag-icon(bw);
+	@include flag-icon(by);
+	@include flag-icon(bz);
+	@include flag-icon(ca);
+	@include flag-icon(cc);
+	@include flag-icon(cd);
+	@include flag-icon(cf);
+	@include flag-icon(cg);
+	@include flag-icon(ch);
+	@include flag-icon(ci);
+	@include flag-icon(ck);
+	@include flag-icon(cl);
+	@include flag-icon(cm);
+	@include flag-icon(cn);
+	@include flag-icon(co);
+	@include flag-icon(cr);
+	@include flag-icon(cu);
+	@include flag-icon(cv);
+	@include flag-icon(cw);
+	@include flag-icon(cx);
+	@include flag-icon(cy);
+	@include flag-icon(cz);
+	@include flag-icon(de);
+	@include flag-icon(dj);
+	@include flag-icon(dk);
+	@include flag-icon(dm);
+	@include flag-icon(do);
+	@include flag-icon(dz);
+	@include flag-icon(ec);
+	@include flag-icon(ee);
+	@include flag-icon(eg);
+	@include flag-icon(eh);
+	@include flag-icon(er);
+	@include flag-icon(es);
+	@include flag-icon(et);
+	@include flag-icon(fi);
+	@include flag-icon(fj);
+	@include flag-icon(fk);
+	@include flag-icon(fm);
+	@include flag-icon(fo);
+	@include flag-icon(fr);
+	@include flag-icon(ga);
+	@include flag-icon(gb);
+	@include flag-icon(gd);
+	@include flag-icon(ge);
+	@include flag-icon(gf);
+	@include flag-icon(gg);
+	@include flag-icon(gh);
+	@include flag-icon(gi);
+	@include flag-icon(gl);
+	@include flag-icon(gm);
+	@include flag-icon(gn);
+	@include flag-icon(gp);
+	@include flag-icon(gq);
+	@include flag-icon(gr);
+	@include flag-icon(gs);
+	@include flag-icon(gt);
+	@include flag-icon(gu);
+	@include flag-icon(gw);
+	@include flag-icon(gy);
+	@include flag-icon(hk);
+	@include flag-icon(hm);
+	@include flag-icon(hn);
+	@include flag-icon(hr);
+	@include flag-icon(ht);
+	@include flag-icon(hu);
+	@include flag-icon(id);
+	@include flag-icon(ie);
+	@include flag-icon(il);
+	@include flag-icon(im);
+	@include flag-icon(in);
+	@include flag-icon(io);
+	@include flag-icon(iq);
+	@include flag-icon(ir);
+	@include flag-icon(is);
+	@include flag-icon(it);
+	@include flag-icon(je);
+	@include flag-icon(jm);
+	@include flag-icon(jo);
+	@include flag-icon(jp);
+	@include flag-icon(ke);
+	@include flag-icon(kg);
+	@include flag-icon(kh);
+	@include flag-icon(ki);
+	@include flag-icon(km);
+	@include flag-icon(kn);
+	@include flag-icon(kp);
+	@include flag-icon(kr);
+	@include flag-icon(kw);
+	@include flag-icon(ky);
+	@include flag-icon(kz);
+	@include flag-icon(la);
+	@include flag-icon(lb);
+	@include flag-icon(lc);
+	@include flag-icon(li);
+	@include flag-icon(lk);
+	@include flag-icon(lr);
+	@include flag-icon(ls);
+	@include flag-icon(lt);
+	@include flag-icon(lu);
+	@include flag-icon(lv);
+	@include flag-icon(ly);
+	@include flag-icon(ma);
+	@include flag-icon(mc);
+	@include flag-icon(md);
+	@include flag-icon(me);
+	@include flag-icon(mf);
+	@include flag-icon(mg);
+	@include flag-icon(mh);
+	@include flag-icon(mk);
+	@include flag-icon(ml);
+	@include flag-icon(mm);
+	@include flag-icon(mn);
+	@include flag-icon(mo);
+	@include flag-icon(mp);
+	@include flag-icon(mq);
+	@include flag-icon(mr);
+	@include flag-icon(ms);
+	@include flag-icon(mt);
+	@include flag-icon(mu);
+	@include flag-icon(mv);
+	@include flag-icon(mw);
+	@include flag-icon(mx);
+	@include flag-icon(my);
+	@include flag-icon(mz);
+	@include flag-icon(na);
+	@include flag-icon(nc);
+	@include flag-icon(ne);
+	@include flag-icon(nf);
+	@include flag-icon(ng);
+	@include flag-icon(ni);
+	@include flag-icon(nl);
+	@include flag-icon(no);
+	@include flag-icon(np);
+	@include flag-icon(nr);
+	@include flag-icon(nu);
+	@include flag-icon(nz);
+	@include flag-icon(om);
+	@include flag-icon(pa);
+	@include flag-icon(pe);
+	@include flag-icon(pf);
+	@include flag-icon(pg);
+	@include flag-icon(ph);
+	@include flag-icon(pk);
+	@include flag-icon(pl);
+	@include flag-icon(pm);
+	@include flag-icon(pn);
+	@include flag-icon(pr);
+	@include flag-icon(ps);
+	@include flag-icon(pt);
+	@include flag-icon(pw);
+	@include flag-icon(py);
+	@include flag-icon(qa);
+	@include flag-icon(re);
+	@include flag-icon(ro);
+	@include flag-icon(rs);
+	@include flag-icon(ru);
+	@include flag-icon(rw);
+	@include flag-icon(sa);
+	@include flag-icon(sb);
+	@include flag-icon(sc);
+	@include flag-icon(sd);
+	@include flag-icon(se);
+	@include flag-icon(sg);
+	@include flag-icon(sh);
+	@include flag-icon(si);
+	@include flag-icon(sj);
+	@include flag-icon(sk);
+	@include flag-icon(sl);
+	@include flag-icon(sm);
+	@include flag-icon(sn);
+	@include flag-icon(so);
+	@include flag-icon(sr);
+	@include flag-icon(ss);
+	@include flag-icon(st);
+	@include flag-icon(sv);
+	@include flag-icon(sx);
+	@include flag-icon(sy);
+	@include flag-icon(sz);
+	@include flag-icon(tc);
+	@include flag-icon(td);
+	@include flag-icon(tf);
+	@include flag-icon(tg);
+	@include flag-icon(th);
+	@include flag-icon(tj);
+	@include flag-icon(tk);
+	@include flag-icon(tl);
+	@include flag-icon(tm);
+	@include flag-icon(tn);
+	@include flag-icon(to);
+	@include flag-icon(tr);
+	@include flag-icon(tt);
+	@include flag-icon(tv);
+	@include flag-icon(tw);
+	@include flag-icon(tz);
+	@include flag-icon(ua);
+	@include flag-icon(ug);
+	@include flag-icon(um);
+	@include flag-icon(us);
+	@include flag-icon(uy);
+	@include flag-icon(uz);
+	@include flag-icon(va);
+	@include flag-icon(vc);
+	@include flag-icon(ve);
+	@include flag-icon(vg);
+	@include flag-icon(vi);
+	@include flag-icon(vn);
+	@include flag-icon(vu);
+	@include flag-icon(wf);
+	@include flag-icon(ws);
+	@include flag-icon(ye);
+	@include flag-icon(yt);
+	@include flag-icon(za);
+	@include flag-icon(zm);
+	@include flag-icon(zw);
+
+	// Other flags
+	@include flag-icon(es-ct);
+	@include flag-icon(eu);
+	@include flag-icon(gb-eng);
+	@include flag-icon(gb-nir);
+	@include flag-icon(gb-sct);
+	@include flag-icon(gb-wls);
+	@include flag-icon(un);
+	@include flag-icon(xk);
+}
