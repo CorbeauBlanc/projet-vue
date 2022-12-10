@@ -4,7 +4,7 @@ import { RouteConfig } from 'vue-router';
 import { RouterUtils } from './services/RouterUtils';
 
 /**
- * All the routes used by the router. All the retarded path params are because of the legacy compatibility.
+ * All the routes used by the router.
  */
 export const routes: RouteConfig[] = [
 	{
