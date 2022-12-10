@@ -1,4 +1,4 @@
-# Leo
+# Template Vue.js 2
 
 ## Project setup
 
@@ -15,7 +15,7 @@
 
 -   Install [Mkcert](https://mkcert.org/) (on mac, install Mkcert through [Homebrew](https://brew.sh/index_fr) with `brew install mkcert`)
 -   Run `mkcert -install`
--   Run `mkcert dev-leo.testapic.com` at the root of the project
+-   Run `mkcert localhost` at the root of the project
 -   Ensure that the variable VUE_APP_HTTPS is set to `true` in .env.development
 
 ## Mandatory rules to respect before any modification

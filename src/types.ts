@@ -151,12 +151,6 @@ export class LdData<T> {
 	public 'hydra:search': any;
 }
 
-export type RouteMeta = {
-	url?: string;
-	isAbsolute?: boolean;
-	hasLegacyGuard?: boolean;
-};
-
 /**
  * Yet another weird thing that can "mutate" a predefined type T by merging it with M and deleting
  * the keys defined in K from it.
@@ -167,55 +161,3 @@ export type RouteMeta = {
  */
 export type Mutation<T, M, K extends keyof T | void = void> = M &
 	Omit<T, K extends void ? keyof M : keyof M | K>;
-
-export class ObjectExplorer<T> {
-	private root: T;
-	private current: any;
-
-	constructor(root: T) {
-		this.root = root;
-	}
-
-	public open(): ObjectExplorer<T> {
-		this.current = this.root;
-		return this;
-	}
-
-	public get<K extends keyof T = keyof T, R extends T[K] = T[K]>(
-		key: K
-	): ObjectExplorer<R> | undefined {
-		if (!this.current) return undefined;
-
-		this.current = (this.current as T)[key];
-		return this as any;
-	}
-
-	public set<
-		K extends keyof T = keyof T,
-		R extends T[K] = T[K],
-		M extends 'override' | 'merge' = 'override'
-	>(key: K, value: R, method?: M): ObjectExplorer<R> | undefined {
-		if (!this.current) return undefined;
-
-		if (!method || method === 'override') (this.current as T)[key] = value;
-		else if (method === 'merge')
-			(this.current as T)[key] = {
-				...(this.current as T)[key],
-				...value,
-			};
-		this.current = (this.current as T)[key];
-		return this as any;
-	}
-
-	public update<K extends keyof T = keyof T, R extends T[K] = T[K]>(
-		key: K,
-		value: T[K],
-		modifier: (key: K, value: T[K], object: T) => void
-	): ObjectExplorer<R> | undefined {
-		if (!this.current) return undefined;
-
-		modifier(key, value, this.current as T);
-		this.current = (this.current as T)[key];
-		return this as any;
-	}
-}
